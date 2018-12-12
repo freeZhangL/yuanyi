@@ -1,0 +1,94 @@
+.ny_ban {
+  margin-top: 60px;
+}
+.ny_ban img {
+  display: block;
+  width: 100%;
+  height: 280px;
+}
+.ntitA {
+  color: #000;
+  font-family: "兰亭粗黑_GBK";
+  padding: 20px 12px 10px;
+  position: relative;
+  font-weight: 600;
+}
+.ntitA h2 {
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000000;
+  display: inline-block;
+}
+.ntitA p {
+  line-height: 25px;
+  font-size: 16px;
+}
+.SkiesBA_tb {
+  padding: 0px 12px 0px;
+  overflow: hidden;
+}
+.SkiesBA_tb i {
+  width: 32px;
+  height: 25px;
+  display: block;
+  margin-right: 3px;
+  float: left;
+}
+.SkiesBA_tb i img {
+  width: 32px;
+  height: 25px;
+  display: block;
+}
+.SkiesBA {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+  padding: 10px 12px 20px;
+  font-family: "兰亭细黑_GBK";
+}
+.SkiesBA span._t {
+  font-family: "兰亭细黑_GBK";
+}
+.SkiesBB {
+  padding: 0 12px;
+}
+.SkiesBB ul li {
+  float: left;
+  width: 48.5%;
+  line-height: 1;
+  margin: 0 3% 15px 0;
+}
+.SkiesBB ul li:nth-of-type(even) {
+  margin-right: 0;
+}
+.SkiesBB ul li > a {
+  display: block;
+}
+.SkiesBB ul li > a img {
+  display: block;
+  width: 100%;
+}
+.SkiesBB ul li > a h2 {
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 12px;
+  color: #0d0d0d;
+  font-family: "兰亭粗黑_GBK";
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.SkiesBB ul li > a p {
+  font-size: 10px;
+  color: #525252;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.page {
+  text-align: center;
+}
+/*# sourceMappingURL=Skies-TV2-detail.css.map */

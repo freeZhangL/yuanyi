@@ -1,0 +1,70 @@
+.Skies {
+  margin-top: 60px;
+}
+.Skies dl {
+  overflow: hidden;
+  padding-bottom: 7px;
+}
+.Skies dl a {
+  display: block;
+}
+.Skies dl a dt,
+.Skies dl a dt.jbbg1 {
+  height: 128px;
+  padding: 0 12px;
+  color: #fff;
+  position: relative;
+  background: linear-gradient(to right, #53cfd0 0%, #43a1cb 100%);
+}
+.Skies dl a dt span,
+.Skies dl a dt.jbbg1 span {
+  font-size: 12px;
+  display: inline-block;
+  text-decoration: underline;
+  padding-top: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.Skies dl a dt h2,
+.Skies dl a dt.jbbg1 h2 {
+  padding: 10px 0 3px;
+  font-size: 20px;
+  font-weight: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.Skies dl a dt p,
+.Skies dl a dt.jbbg1 p {
+  padding-bottom: 8px;
+  font-size: 13px;
+}
+.Skies dl a dt i,
+.Skies dl a dt.jbbg1 i {
+  width: 52px;
+  height: 16px;
+  display: block;
+}
+.Skies dl a dt i img,
+.Skies dl a dt.jbbg1 i img {
+  width: 100%;
+  height: 100%;
+}
+.Skies dl a dt div,
+.Skies dl a dt.jbbg1 div {
+  width: 45px;
+  height: 45px;
+  background: url("../images/t3.png") no-repeat center center / contain;
+  position: absolute;
+  right: 19px;
+  top: 44px;
+}
+.Skies dl a dd img {
+  width: 100%;
+  height: 375px;
+}
+.Skies .page {
+  text-align: center;
+}
+/*# sourceMappingURL=Album2.css.map */

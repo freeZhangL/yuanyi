@@ -1,0 +1,260 @@
+/*基础样式*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font: 14px/140% Microsoft YaHei, Arial, "宋体", Helvetica, sans-serif, Verdana;
+  height: 100%;
+  color: #333333;
+}
+
+.w {
+  width: 1200px;
+  margin: auto;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button,
+textarea {
+  outline: none;
+  border: none;
+  /*不允许改变尺寸*/
+  resize: none;
+}
+
+/*公共样式*/
+//相同的部分begin1
+.w {
+  width: 296/16rem;
+}
+
+//nav1
+.nav1 {
+  height: 60/18.75rem;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  h1 {
+    width: 250/18.75rem;
+    height: 40/18.75rem;
+    font-size: 24/18.75rem;
+    color: #5fb4c3;
+    font-weight: bold;
+    font-family: "AvantGardeMdITCTT";
+    float: left;
+    margin-top: -6/18.75rem;
+    position: absolute;
+    left: 14/18.75rem;
+    top: 33/18.75rem;
+  }
+  span {
+    width: 50/18.75rem;
+    height: 20/18.75rem;
+    background: url("../images/t1.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0/18.75rem;
+    top: 24/18.75rem;
+  }
+}
+
+//.top_fd
+.top_fd {
+  width: 100%;
+  height: 100%;
+  padding: 10/18.75rem 15/18.75rem 0/18.75rem;
+  background: rgba(32, 34, 45, 0.89);
+  overflow: hidden;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0/18.75rem;
+  left: 0/18.75rem;
+  z-index: 9999;
+  display: none;
+  > .closeA {
+    padding: 10/18.75rem 0;
+    height: 24/18.75rem;
+    text-align: right;
+    > span {
+      display: inline-block;
+      width: 24/18.75rem;
+      height: 24/18.75rem;
+      color: #fff;
+      font-size: 20/18.75rem;
+      background: url("../images/t5.png") no-repeat center center/contain;
+    }
+  }
+  > ul {
+    > li {
+      height: 42/18.75rem;
+      line-height: 42/18.75rem;
+      font-size: 20/18.75rem;
+      > a {
+        color: #fff;
+        span{
+          padding-right: 10px;
+          font-size: 22px;
+          font-family: "SmTown";
+          font-weight: bold;
+          font-style: italic;
+          position: relative;
+          top: 1px;
+        }
+      }
+    }
+  }
+  > .top_fd_B {
+    width: 100%;
+    position: absolute;
+    left: 12/18.75rem;
+    bottom: 20/18.75rem;
+    box-sizing: border-box;
+    > dl {
+      padding: 0/18.75rem 0 12/18.75rem;
+      > dt {
+        line-height: 30/18.75rem;
+        font-size: 16/18.75rem;
+        > a {
+          color: #fff;
+        }
+      }
+    }
+    > .p1 {
+      font-size: 12/18.75rem;
+      color: #75c9d8;
+      font-family: "兰亭粗黑_GBK";
+    }
+  }
+
+}
+
+//nav2
+.nav2 {
+  margin-top: 60/18.75rem;
+  //height: 42/18.75rem;
+  background: #f2fafb;
+  overflow: hidden;
+  > div {
+    ul {
+      li {
+        float: left;
+        height: 42/18.75rem;
+        line-height: 42/18.75rem;
+        padding-right: 10/18.75rem;
+        &.active {
+          a {
+            font-size: 13/18.75rem;
+            color: #5fb4c3;
+            font-weight: 600;
+          }
+        }
+        &:last-of-type {
+          padding-right: 0;
+        }
+        a {
+          font-weight: 600;
+          height: 42/18.75rem;
+          color: #000;
+          font-size: 13/18.75rem;
+        }
+      }
+    }
+  }
+}
+
+//相同的部分end1
+
+//相同的部分begin2
+//foot
+.foot {
+  padding: 20/18.75rem 12/18.75rem 20/18.75rem 80/18.75rem;
+  overflow: hidden;
+  background: url("../images/t4.png") no-repeat 22/18.75rem 37/18.75rem;;
+  background-size: 45/18.75rem 28/18.75rem;
+  color: #fff;
+  clear: both;
+  .footA1 {
+    padding: 0 0 5/18.75rem 2/18.75rem;
+    overflow: hidden;
+    a {
+      font-size: 12/18.75rem;
+      color: #fff;
+      float: left;
+    }
+    span {
+      display: inline-block;
+      font-size: 9/18.75rem;
+      padding: 0 7/18.75rem 2/18.75rem;
+      position: relative;
+      top: 2/18.75rem;
+      float: left;
+    }
+  }
+  .footA2 {
+    line-height: 1.8;
+    font-size: 8/18.75rem;
+  }
+}
+
+//相同的部分end2
+
+.page {
+  text-align: center;
+  height: 15/18.75rem;
+  margin: 5/18.75rem 0;
+}

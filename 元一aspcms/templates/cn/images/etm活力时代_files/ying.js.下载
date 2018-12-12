@@ -1,0 +1,128 @@
+﻿$(function(){
+	
+	/*顶部下拉*/
+	$(".navbar").click(function(){
+		$(".top_fd").fadeIn();
+	})	
+	$(".top_fd .closeA").click(function(){
+		$(".top_fd").fadeOut();
+	})	
+	
+	
+	/*关闭弹出框*/
+	$(".fdbox .closeA").click(function(){
+		$(".fdboxbj").hide();
+		$(".fdbox").hide();
+		if($(".fdbox_mv").length > 0){
+			$(".fdbox_mv").html("");
+		}
+	})
+	
+	
+	//翻转移动设备
+	function landChk(){
+		var orientation = window.orientation;
+		console.log(orientation);
+		if(orientation == 90  || orientation == -90){//横屏状态
+			alert("请竖屏浏览页面！")			
+		} else { //竖屏状态
+		}
+	}
+	$(window).on('load',function(){
+		landChk();
+	});
+	$(window).on("orientationchange", function (){
+		landChk();
+	});	
+		
+	/*===============日程表==========*/
+	$(".ricC ul li").click(function(){
+		var dataA=$(this).attr("data")
+		var dataB=$(".ricC").attr("data")
+		$.ajax({
+			async:true,
+			url: 'richeng_con.asp?id='+dataA+"&natureA="+dataB,
+			type: "GET",
+			dataType: 'html',
+			timeout: 5000,
+			success: function(data){
+				$(".ricE").html(data)
+			},
+			error: function(xhr){
+				
+			}
+		});			
+	})		
+		
+	//手机浏览器滑动滚动条时，浏览器可视高度变高，相应改变浮动菜单背景高度
+	$(window).scroll(function(){
+		var w_h =  $(window).height();
+		$(".top_fd").height(w_h)		
+	})
+		
+	//banner
+	if($(".main_visual").length >0){
+		var mainVisual = $(".main_visual");
+		function mainResize() {
+			
+			setTimeout(function(){
+				var getHeight =  $(".main_visual .slide_box:eq(1)").height();
+				mainVisual.height(getHeight);
+			}, 100);		
+		}
+		mainResize();
+		
+		$(window).on("resize", function() {
+			mainResize();
+		});
+		
+		
+		var mainVisualSlide = $(".main_visual .visual_slide").removeClass("load").slick({
+			speed:600,
+			dots:false,
+			arrows:false,
+			//autoplay:true,
+			asNavFor:".main_visual .text_slide"
+		});
+		var mainTextSlide = $(".main_visual .text_slide").removeClass("load").slick({
+			fade:true,
+			speed:600,
+			dots:true,
+			arrows:false,
+			asNavFor:".main_visual .visual_slide"
+		});		
+	}
+	
+});
+
+/*显示更多*/
+function yulist(listA,sxnum){
+	var xs_ts=sxnum;
+	$(listA+":gt("+xs_ts+")").hide();
+}
+
+function yulistB(listA,addnum){
+	var add_ts=$(listA+":visible").length+addnum;
+	$(listA+":lt("+add_ts+")").show();
+}
+
+
+/*获得视频*/
+function gettv(aid){
+	$(".fdboxbj").show();
+	$(".fdbox").show();
+	$.ajax({
+		async:true,
+		url: "mvbox.asp?id="+aid,
+		type: "GET",
+		dataType: 'text',
+		timeout: 5000,
+		success: function(data){
+			$(".fdbox_mv").html(data)
+		},
+		error: function(xhr){
+			
+		}
+	});		
+	
+}

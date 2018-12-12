@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="gb2312">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Keywords"
+          content="网站建设,网站建设公司,网站制作,网站制作公司,手机网站建设,手机网站制作,淘宝装修,淘宝店铺装修设计,400电话申请,400电话公司,400电话办理,微信公众号申请,微网站制作,域名注册,域名注册,邮箱申请">
+    <meta name="Description"
+          content="xxx有限公司是一家专业提供网站建设,网站建设公司,网站制作,网站制作公司,手机网站建设,手机网站制作,淘宝装修,淘宝店铺装修设计,400电话申请,400电话公司,400电话办理,微信公众号申请,微网站制作,域名注册,域名注册,邮箱申请等一系列互联网基础服务的的公司，全国服务热线xxx。">
+    <title>元一官网</title>
+    <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/normalize.css">
+    <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/base.css">
+    <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/adapter.css">
+    <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/swiper.min.css">
+    <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/xijushe1.css">
+
+    <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/jquery-1.12.4.min.js"></script>
+    <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/swiper.min.js"></script>
+    <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/base.js"></script>
+    <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/index.js"></script>
+    <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/fastclick.js"></script>
+    <!--[if lt IE 9]>
+    <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/html5shiv.min.js"></script>
+    <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--nav1-->
+<nav class="nav1">
+    <h1>ETM Training Center</h1>
+    <span></span>
+</nav>
+<!--相同的部分begin1-->
+{aspcms:top}
+<!--相同的部分end1-->
+<!--nav2-->
+<nav class="nav2">
+    <div class="w">
+        <ul class="clearfix">
+            {aspcms:type sort=25}
+            <li class="active"><a href="[type:link]">[type:name]</a></li>
+            {/aspcms:type}
+            {aspcms:type sort=26}
+            <li><a href="[type:link]">[type:name]</a></li>
+            {/aspcms:type}
+            {aspcms:type sort=27}
+            <li><a href="[type:link]">[type:name]</a></li>
+            {/aspcms:type}
+            {aspcms:type sort=28}
+            <li><a href="[type:link]">[type:name]</a></li>
+            {/aspcms:type}
+            {aspcms:type sort=29}
+            <li><a href="[type:link]">[type:name]</a></li>
+            {/aspcms:type}
+        </ul>
+    </div>
+</nav>
+<!--ny_con-->
+<div class="ny_con">
+    <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/zhizhitu.png">
+    <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/17.jpg">
+</div>
+
+
+
+
+
+<!--相同的部分begin2-->
+<!--foot-->
+<div class="foot" style="background-color: #5fb4c3;">
+    <div class="footA1">
+        <a href="javascript:;">关于我们</a><span>|</span>
+        <a href="javascript:;">招贤纳士</a><span>|</span>
+        <a href="javascript:;">社交网络</a>
+    </div>
+    <div class="footA2">
+        中国?四川省成都市锦江区红星路三段10号第一城B座22F<br>
+        蜀ICP备12031058-2   广播电视节目制作经营许可证：川字第00554号<br>
+        Copyright?2018活力时代(成都)文化传播有限公司 版权所有
+    </div>
+</div>
+<script>
+    $(function () {
+        FastClick.attach(document.body);
+        var width=$(window).width();
+        var height=$(window).height();
+        console.log(height);
+        $(".closeA").children("span").click(function () {
+            $(".top_fd").fadeOut();
+        });
+        $(".nav1").children("span").click(function () {
+            $(".top_fd").fadeIn(300).height(height);
+        });
+    });
+</script>
+<!--相同的部分end2-->
+</body>
+</html>

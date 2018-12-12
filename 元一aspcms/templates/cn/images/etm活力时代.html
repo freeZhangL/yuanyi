@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://www.etmskies.com/bao.asp -->
+<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<title>etm活力时代</title>
+<meta name="keywords" content="ETM Audition">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link href="./etm活力时代_files/style.css" type="text/css" rel="stylesheet">
+<link href="./etm活力时代_files/slick.css" type="text/css" rel="stylesheet">
+
+<script src="./etm活力时代_files/hm.js.下载"></script><script type="text/javascript" src="./etm活力时代_files/jquery-1.11.0.min.js.下载"></script><style></style>
+<script type="text/javascript" src="./etm活力时代_files/slick.js.下载"></script>
+<script type="text/javascript" src="./etm活力时代_files/ying.js.下载"></script>
+
+<link rel="stylesheet" href="./etm活力时代_files/layer.css" id="layuicss-skinlayercss"></head>
+
+<body style="">
+
+<div class="head ny_head ">
+	<div class="headA ">
+    	<div class="ny_logo">AUDITION</div>
+        <div class="navbar"></div>
+    </div>
+    <div class="top_fd" style="height: 677px;">
+        <div class="closeA"><span></span></div>
+    	<ul>
+        	<li><a href="http://www.etmskies.com/index.asp"><span>Home</span>首页</a></li>
+          <li><a href="http://www.etmskies.com/Artist.asp"><span>Artist</span>家族艺人</a></li>
+          <li><a href="http://www.etmskies.com/Skies.asp"><span>Skies TV</span>天空偶像频道</a></li>
+          <li><a href="http://www.etmskies.com/Album.asp"><span>Album</span>音乐作品</a></li>
+          <li><a href="http://www.etmskies.com/ETM.asp"><span>ETM TC</span>练习生培养中心</a></li>
+          <li><a href="http://www.etmskies.com/bao.asp###"><span>Starry Show</span>星耀秀</a></li>
+      </ul>
+        <div class="top_fd_B">
+            <dl>
+                <dt><a href="http://www.etmskies.com/news.asp">新闻&amp;公告 </a></dt>
+                <dt><a href="http://www.etmskies.com/Audition.asp">ETM Audition</a></dt>
+                <dt><a href="http://www.etmskies.com/Studio.asp">ETM Studio</a></dt>
+                <dt><a href="http://www.etmskies.com/Shop.asp">Skies Shop</a></dt>
+            </dl>
+            <p class="p1">ETMSkies  |  一站式偶像养成服务平台</p>
+        </div>
+    </div><!--top_fd-->
+
+</div><!--head-->  
+
+<link type="text/css" rel="stylesheet" href="./etm活力时代_files/layer(1).css">
+<script type="text/javascript" src="./etm活力时代_files/layer.js.下载"></script>
+<script type="text/javascript" src="./etm活力时代_files/PreviewImage.js.下载"></script>	
+<script>
+
+function F_Open_dialog(inputA)
+{ 
+	$(inputA).click();
+} 
+
+function chkFrm(){
+		var strP=/^\d+$/;
+		
+		if(gform.uname.value==""){
+			layer.tips('请输入姓名!', $("input[name='uname']"),{tips:[2,"#38b791"]});
+			gform.uname.focus();			
+			return false;
+		}	
+		
+		if(gform.nian.value==""){
+			layer.tips('请输入年!', $("input[name='nian']"),{tips:[2,"#38b791"]});			
+			gform.nian.focus();
+			return false;
+		}	
+		if(gform.yue.value==""){
+			layer.tips('请输入月份!', $("input[name='yue']"),{tips:[2,"#38b791"]});			
+			gform.yue.focus();
+			return false;
+		}	
+		if(gform.ri.value==""){
+			layer.tips('请输入日期!', $("input[name='ri']"),{tips:[2,"#38b791"]});			
+			gform.ri.focus();
+			return false;
+		}					
+				
+		if(gform.shengao.value==""){
+			layer.tips('请输入身高!', $("input[name='shengao']"),{tips:[2,"#38b791"]});						
+			gform.shengao.focus();
+			return false;
+		}
+		if(gform.weight.value==""){
+			layer.tips('请输入体重!', $("input[name='weight']"),{tips:[2,"#38b791"]});						
+			gform.weight.focus();
+			return false;
+		}
+			
+			
+		if(gform.tel.value==""){
+			layer.tips('请输入电话号码!', $("input[name='tel']"),{tips:[2,"#38b791"]});						
+			gform.tel.focus();
+			return false;
+		}	
+		var shuzi=/^(((1[0-9]{1}[0-9]{1}))+\d{8})$/;
+		if(!shuzi.test(gform.tel.value)){
+			layer.tips('请输入正确的手机号码!', $("input[name='tel']"),{tips:[2,"#38b791"]});						
+			gform.tel.focus();
+			return false;
+		}
+
+		if(gform.title.value==""){
+			layer.tips('请输入就读学校!', $("input[name='title']"),{tips:[2,"#38b791"]});						
+			gform.title.focus();
+			return false;
+		}		
+			
+		if(!/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/.test(gform.email.value)){
+			layer.tips('输入的邮箱格式不正确!', $("input[name='email']"),{tips:[2,"#38b791"]});							
+			gform.email.focus();
+			return false;
+		}	
+							
+		if(gform.address.value==""){
+			layer.tips('请输入家庭住址!', $("input[name='address']"),{tips:[2,"#38b791"]});						
+			gform.address.focus();
+			return false;
+		}									
+
+	
+
+/*		if(gform.file1.value==""){
+			layer.tips('请上传正面的照片!', $(".baomingC #pidA"));			
+			gform.address.focus();		
+			return false;
+		}		
+		if(gform.file3.value==""){
+			layer.tips('请上传全身的照片!', $(".baomingC #pidC"));			
+			gform.address.focus();		
+			return false;
+		}*/					
+		if(gform.tongyi.value=="2"){
+			layer.alert('您还没有同意我们对你信息的收集!');			
+			return false;
+		}	
+}	
+</script>
+
+<div class="lanmu">
+	<ul>
+    	<li><a href="http://www.etmskies.com/xuzhi.asp">选秀须知</a></li>
+        <li><a href="http://www.etmskies.com/yuemo.asp">月末选秀</a></li>
+        <li class="active"><a href="http://www.etmskies.com/bao.asp">ONline Audition</a></li>
+    </ul>
+</div><!--lanmu-->
+
+<div class="ny_ban">
+	<img src="./etm活力时代_files/20180413113529012901.jpg">
+</div>
+
+<div class="ntitA">
+	<h2>ONLINE audition</h2>
+    <p>在线选秀</p>
+</div>
+<div class="baoA">
+    <b style=" color:#5fb4c3;">ETMSkies Audition</b>天空偶像计划练习生选秀<br>
+    设立官网在线选秀通道<br>
+    拥有斑斓世界的音乐之梦的你，只需要按照下面的报名系统提交相关资料即可参与在线选秀<br>
+    期待实力与勇气兼备的你前来挑战！		
+</div>
+
+<div class="baoB">
+<form method="post" action="http://www.etmskies.com/Jmail/senMail_join.asp?action=add" name="gform" enctype="multipart/form-data" onsubmit="return chkFrm()">
+	<div class="baoB1"><img src="./etm活力时代_files/t7.png"></div>
+    <div class="baoB2"><span>1</span>个人基本信息</div>
+    <dl class="bao_sx1 bao_dl jbian">
+    	<dt>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</dt>
+        <dd class="bao_sx2"><input class="put1" name="uname" type="text" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;"></dd>
+    </dl>
+    <dl class="bao_sx1 bao_dl sex">
+    	<dt>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别</dt>
+        <dd class="bao_sx2">
+			<div class="opt">
+				<input class="bbtn" type="radio" name="sex" id="c1" value="1" checked="">
+				<label for="c1">女</label>
+			</div>
+			<div class="opt">
+				<input class="bbtn" type="radio" name="sex" id="c2" value="2">
+				<label for="c2">男</label>
+			</div>            
+        </dd>
+    </dl>
+    <dl class="bao_sx1 bao_dl chusheng">
+    	<dt>出生年月</dt>
+        <dd class="bao_sx2">
+        	<input class="put1 put2" name="nian" type="text"><span>年</span>
+        	<input class="put1 put3" name="yue" type="text"><span>月</span>
+            <input class="put1 put3" name="ri" type="text"><span>日</span>
+        </dd>
+    </dl>
+    
+    <dl class="bao_sx1 bao_dl shenggao">
+    	<dt>身高体重</dt>
+        <dd>
+        	<input class="put1 put2" name="shengao" type="text"><span>CM</span>
+        	<input class="put1 put2" name="weight" type="text"><span>KG</span>
+        </dd>
+    </dl> 
+    
+    <div class="baoB2"><span>2</span>填报部门</div>
+	<dl class="bao_sx1 bao_sx2 baoB3 jbian">
+    	<dt>
+            <div class="opt">
+                <input class="bbtn" type="radio" name="bumen" id="bm1" value="1" checked="">
+                <label for="bm1">歌手部门</label>
+            </div>
+         </dt>
+         <dt>          
+            <div class="opt">
+                <input class="bbtn" type="radio" name="bumen" id="bm2" value="2">
+                <label for="bm2">舞蹈部门</label>
+            </div>
+        </dt>  
+    </dl>
+	<dl class="bao_sx1 bao_sx2 baoB3">
+    	<dt>
+            <div class="opt">
+                <input class="bbtn" type="radio" name="bumen" id="bm3" value="3">
+                <label for="bm3">演技部门</label>
+            </div>
+        </dt>
+        <dt>  
+            <div class="opt">
+                <input class="bbtn" type="radio" name="bumen" id="bm4" value="4">
+                <label for="bm4">创作部门</label>
+            </div>
+        </dt>              
+    </dl> 
+    
+    <div class="baoB2"><span>3</span>联系方式</div>
+    <dl class="bao_sx1 bao_dl bao_tel">
+    	<dt>联络电话</dt>
+        <dd class="bao_sx2">
+        	<input class="put1 put4" name="tel" type="text">
+        	<span>(这是我们联络你的重要方式，请确保畅通）</span>
+        </dd>
+    </dl> 
+    <dl class="bao_sx1 bao_dl jbian">
+    	<dt>就读学校</dt>
+        <dd class="bao_sx2"><input class="put1" name="title" type="text"></dd>
+    </dl> 
+    <dl class="bao_sx1 bao_dl">
+    	<dt>E-mail&nbsp;&nbsp;</dt>
+        <dd class="bao_sx2"><input class="put1" name="email" type="text"></dd>
+    </dl> 
+    <dl class="bao_sx1 bao_dl bao_address">
+    	<dt>家庭住址</dt>
+        <dd class="bao_sx2"><input class="put1" name="address" type="text"></dd>
+    </dl> 
+    
+    <div class="baoB2 baoB2a"><span>4</span>选秀须知协议条款</div>
+    <div class="bao_photo">
+    	<dl>
+            <input type="file" name="file1" onchange="PreviewImage(this, &#39;yulan_picA&#39;, &#39;bao_photo&#39;);" class="finput1" style="display:none">
+        	<dt onclick="F_Open_dialog(&#39;.finput1&#39;)"><img id="yulan_picA" src="./etm活力时代_files/t8.png" width="100%" height="130"></dt>
+            <dd>正面的照片</dd>
+        </dl>
+    	<dl>
+            <input type="file" name="file2" onchange="PreviewImage(this, &#39;yulan_picB&#39;, &#39;bao_photo&#39;);" class="finput2" style="display:none">        
+        	<dt onclick="F_Open_dialog(&#39;.finput2&#39;)"><img id="yulan_picB" src="./etm活力时代_files/t8.png" width="100%" height="130"></dt>
+            <dd>正面的照片</dd>
+        </dl>
+    	<dl>
+            <input type="file" name="file3" onchange="PreviewImage(this, &#39;yulan_picC&#39;, &#39;bao_photo&#39;);" class="finput3" style="display:none">        
+        	<dt onclick="F_Open_dialog(&#39;.finput3&#39;)"><img id="yulan_picC" src="./etm活力时代_files/t8.png" width="100%" height="130"></dt>
+            <dd>全身的照片</dd>
+        </dl>            
+    </div>
+    
+    <div class="bao_tiaokuan jbian">
+    	<h2>参选须知条款</h2>
+    	<p>
+            1. 填报人参加ETM Skies线上选秀是属于自发、自愿的个人行为；<br>
+            2. 未满18周岁的填报人，务必在征得家长监护人同意后参加；<br>
+            3. 因参加ETM Skies线上选秀所需要提供的个人资料，我们只针对本次选秀之用，不会对外泄露，请放心填写；<br>
+            4. 因参加ETM Skies线上选秀所提交的照片，ETM有权在Skies新人甄选相关的活动中作非商业使用。        
+        </p>
+    </div>
+    
+    <dl class="bao_tongyi">
+    	<dt>
+            <div class="opt">
+                <input class="bbtn" type="radio" name="tongyi" id="ty1" value="1" checked="">
+                <label for="ty1">我同意上述协议条款</label>
+            </div>        
+        </dt>
+        <dt>
+            <div class="opt">
+                <input class="bbtn" type="radio" name="tongyi" id="ty2" value="2">
+                <label for="ty2">我不同意上述协议条款</label>
+            </div>         
+        </dt>
+    </dl>
+    <input name="" type="submit" class="ti" value="提交报名">
+</form>    
+</div>
+
+
+<div class="foot">
+    <div class="footA1">
+        <a href="http://www.etmskies.com/about.asp">关于我们</a><span>|</span>
+        <a href="http://www.etmskies.com/join.asp">招贤纳士</a><span>|</span>
+        <a href="http://www.etmskies.com/contact.asp">社交网络</a>
+    </div>
+    <div class="footA2">
+        中国·四川省成都市锦江区红星路三段10号第一城B座22F<br>
+蜀ICP备12031058-2   广播电视节目制作经营许可证：川字第00554号<br>
+Copyright©2018活力时代(成都)文化传播有限公司 版权所有    
+    </div>
+</div>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?62eb33053210132bea9e952619011587";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+</body></html>

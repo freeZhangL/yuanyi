@@ -1,0 +1,39 @@
+.logo {
+  margin: 20px 0;
+  padding: 0 10px;
+}
+.logo img {
+  display: block;
+  width: 100%;
+  height: 196px;
+}
+.title {
+  padding: 0 10px;
+}
+.title .con {
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  border-color: #83b4d1;
+  color: #83b4d1;
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 10px 0px;
+  padding: 0px 0px 5px;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+}
+.title .con p {
+  font-size: 18px;
+}
+.title-text {
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+.title-text .con {
+  width: 100%;
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+/*# sourceMappingURL=aboutUs1.css.map */

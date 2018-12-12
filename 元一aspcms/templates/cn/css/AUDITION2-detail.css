@@ -1,0 +1,60 @@
+.ny_ban img {
+  width: 100%;
+}
+.ntitA {
+  color: #000;
+  font-weight: 600;
+  font-family: "兰亭粗黑_GBK";
+  padding: 20px 12px 10px;
+  position: relative;
+}
+.ntitA h2 {
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000000;
+  display: inline-block;
+}
+.ntitA p {
+  line-height: 25px;
+  font-size: 16px;
+}
+.title {
+  padding: 0 10px;
+}
+.title .con {
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  border-color: #83b4d1;
+  color: #83b4d1;
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 10px 0px;
+  padding: 0px 0px 5px;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+}
+.title .con p {
+  font-size: 18px;
+}
+.title-text {
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+.title-text .con {
+  width: 100%;
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+.img1 {
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+.img1 img {
+  width: 100%;
+}
+/*# sourceMappingURL=AUDITION2-detail.css.map */
