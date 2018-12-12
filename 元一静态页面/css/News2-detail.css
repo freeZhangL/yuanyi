@@ -1,0 +1,14 @@
+.news_info {
+  margin-top: 60px;
+  padding: 20px 12px 0;
+  color: #0d0408;
+  clear: both;
+}
+.news_info p {
+  margin: 3.75pt 0pt;
+}
+.news_info img {
+  width: 100%;
+  display: block;
+}
+/*# sourceMappingURL=News2-detail.css.map */

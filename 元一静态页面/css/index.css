@@ -1,0 +1,43 @@
+.ny_ban {
+  width: 100%;
+}
+.ny_ban img {
+  width: 100%;
+}
+.vigour > a {
+  display: block;
+  width: 100%;
+}
+.vigour > a > img {
+  display: block;
+  width: 100%;
+}
+.fdzixun {
+  width: 7.73333333rem;
+  height: 14.93333333rem;
+  background: url("../images/t6.png") no-repeat center center / contain;
+  position: fixed;
+  right: 0rem;
+  top: 7.46666667rem;
+}
+.fdzixun > ul {
+  padding: 6.66666667rem 0 0 0.37333333rem;
+  overflow: hidden;
+}
+.fdzixun > ul li:first-of-type {
+  height: 3.84rem;
+  display: block;
+}
+.fdzixun > ul li:first-of-type a {
+  height: 3.84rem;
+  display: block;
+}
+.fdzixun > ul li:last-of-type {
+  height: 3.84rem;
+  display: block;
+}
+.fdzixun > ul li:last-of-type a {
+  height: 3.84rem;
+  display: block;
+}
+/*# sourceMappingURL=index.css.map */
