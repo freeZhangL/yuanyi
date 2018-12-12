@@ -47,20 +47,7 @@
   font-size: 14px;
   font-weight: 500;
 }
-.news .moreA {
-  padding: 22px 0;
+.news .page {
   text-align: center;
-  clear: both;
-}
-.news .moreA > a {
-  width: 150px;
-  height: 30px;
-  line-height: 30px;
-  font-size: 12px;
-  text-align: center;
-  color: #5fb4c3;
-  display: inline-block;
-  border: 2px solid #5eb4c3;
-  font-family: "兰亭粗黑_GBK";
 }
 /*# sourceMappingURL=Drafts-and-topics1.css.map */
