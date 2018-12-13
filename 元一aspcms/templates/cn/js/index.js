@@ -1,22 +1,22 @@
 $(function () {
-    // 轮播
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 1,
-        loop: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        autoplay: {
-            delay: 3000,
-            stopOnLastSlide: false,
-            disableOnInteraction: false,
-        },
-    });
+    // // 轮播
+    // var swiper = new Swiper('.swiper-container', {
+    //     slidesPerView: 1,
+    //     loop: true,
+    //     pagination: {
+    //         el: '.swiper-pagination',
+    //         clickable: true,
+    //     },
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev',
+    //     },
+    //     autoplay: {
+    //         delay: 3000,
+    //         stopOnLastSlide: false,
+    //         disableOnInteraction: false,
+    //     },
+    // });
 
     // tab栏
     $(".tab-title").children("li").hover(function () {
@@ -50,6 +50,4 @@ $(function () {
     //         $(".swiper-container").css({"marginTop": 0});
     //     }
     // });
-
-
 });

@@ -18,7 +18,6 @@
 
     <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/jquery-1.12.4.min.js"></script>
     <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/swiper.min.js"></script>
-    <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/base.js"></script>
     <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/index.js"></script>
     <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/fastclick.js"></script>
     <!--[if lt IE 9]>
@@ -27,14 +26,13 @@
     <![endif]-->
 </head>
 <body>
+<!--相同的部分begin1-->
 <!--nav1-->
 <nav class="nav1">
     <h1>ETM Training Center</h1>
     <span></span>
 </nav>
-<!--相同的部分begin1-->
 {aspcms:top}
-<!--相同的部分end1-->
 <!--nav2-->
 <nav class="nav2">
     <div class="w">
@@ -57,11 +55,17 @@
         </ul>
     </div>
 </nav>
+<!--相同的部分end1-->
 
 <!--ny_con-->
 <div class="ny_con">
-    <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180417002249814981.jpg">
-    <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/17.jpg">
+    {aspcms:type sort=26}
+    <img src="[type:ico]">
+    {/aspcms:type}
+
+    {aspcms:content sort=26 num=1 order=order star=1}
+    <img src="[content:pic]">
+    {/aspcms:content}
 </div>
 
 
@@ -69,33 +73,7 @@
 
 
 <!--相同的部分begin2-->
-<!--foot-->
-<div class="foot" style="background-color: #5fb4c3;">
-    <div class="footA1">
-        <a href="javascript:;">关于我们</a><span>|</span>
-        <a href="javascript:;">招贤纳士</a><span>|</span>
-        <a href="javascript:;">社交网络</a>
-    </div>
-    <div class="footA2">
-        中国?四川省成都市锦江区红星路三段10号第一城B座22F<br>
-        蜀ICP备12031058-2   广播电视节目制作经营许可证：川字第00554号<br>
-        Copyright?2018活力时代(成都)文化传播有限公司 版权所有
-    </div>
-</div>
-<script>
-    $(function () {
-        FastClick.attach(document.body);
-        var width=$(window).width();
-        var height=$(window).height();
-        console.log(height);
-        $(".closeA").children("span").click(function () {
-            $(".top_fd").fadeOut();
-        });
-        $(".nav1").children("span").click(function () {
-            $(".top_fd").fadeIn(300).height(height);
-        });
-    });
-</script>
+{aspcms:foot}
 <!--相同的部分end2-->
 </body>
 </html>

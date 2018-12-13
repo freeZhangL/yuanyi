@@ -18,7 +18,6 @@
 
     <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/jquery-1.12.4.min.js"></script>
     <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/swiper.min.js"></script>
-    <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/base.js"></script>
     <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/index.js"></script>
     <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/fastclick.js"></script>
     <!--[if lt IE 9]>
@@ -33,26 +32,7 @@
     <h1>Album</h1>
     <span></span>
 </nav>
-<div class="top_fd">
-    <div class="closeA"><span></span></div>
-    <ul>
-        <li><a href="javascript:;"><span>Home</span>首页</a></li>
-        <li><a href="javascript:;"><span>Artist</span>家族艺人</a></li>
-        <li><a href="javascript:;"><span>Skies TV</span>天空偶像频道</a></li>
-        <li><a href="javascript:;"><span>Album</span>音乐作品</a></li>
-        <li><a href="javascript:;"><span>ETM TC</span>练习生培养中心</a></li>
-        <li><a href="javascript:;"><span>Starry Show</span>星耀秀</a></li>
-    </ul>
-    <div class="top_fd_B">
-        <dl>
-            <dt><a href="javascript:;">新闻&amp;公告 </a></dt>
-            <dt><a href="javascript:;">ETM Audition</a></dt>
-            <dt><a href="javascript:;">ETM Studio</a></dt>
-            <dt><a href="javascript:;">Skies Shop</a></dt>
-        </dl>
-        <p class="p1">ETMSkies | 一站式偶像养成服务平台</p>
-    </div>
-</div>
+{aspcms:top}
 <!--相同的部分end1-->
 <!--Skies-->
 <div class="Skies">
@@ -107,7 +87,7 @@
             <dd><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181114010336283628.png"></dd>
         </a>
     </dl>
-    <div class="page">1,3,,4,5,5</div>
+    <div class="page">[list:pagenumber len=5]</div>
 </div>
 
 

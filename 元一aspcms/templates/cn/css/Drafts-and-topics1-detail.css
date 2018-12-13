@@ -3,6 +3,12 @@
   color: #0d0408;
   clear: both;
 }
+.news_info .info_text img {
+  padding-top: 12px!important;
+  width: 100% !important;
+  height: 196px!important;
+  display: block!important;
+}
 .news_info .info_title {
   line-height: 24px;
   font-size: 20px;

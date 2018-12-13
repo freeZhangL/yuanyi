@@ -18,8 +18,8 @@
 
     <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/jquery-1.12.4.min.js"></script>
     <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/swiper.min.js"></script>
-    <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/base.js"></script>
     <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/fastclick.js"></script>
+    <script src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/index.js"></script>
     <script>
         $(function () {
             // 轮播1
@@ -86,34 +86,14 @@
     <h1><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/logo.png" alt=""></h1>
     <span></span>
 </nav>
-<div class="top_fd">
-    <div class="closeA"><span></span></div>
-    <ul>
-        <li><a href="javascript:;"><span>Home</span>首页</a></li>
-        <li><a href="javascript:;"><span>Artist</span>家族艺人</a></li>
-        <li><a href="javascript:;"><span>Skies TV</span>天空偶像频道</a></li>
-        <li><a href="javascript:;"><span>Album</span>音乐作品</a></li>
-        <li><a href="javascript:;"><span>ETM TC</span>练习生培养中心</a></li>
-        <li><a href="javascript:;"><span>Starry Show</span>星耀秀</a></li>
-    </ul>
-    <div class="top_fd_B">
-        <dl>
-            <dt><a href="javascript:;">新闻&amp;公告 </a></dt>
-            <dt><a href="javascript:;">ETM Audition</a></dt>
-            <dt><a href="javascript:;">ETM Studio</a></dt>
-            <dt><a href="javascript:;">Skies Shop</a></dt>
-        </dl>
-        <p class="p1">ETMSkies | 一站式偶像养成服务平台</p>
-    </div>
-</div>
+{aspcms:top}
 <!--相同的部分end1-->
 <!-- Swiper1 -->
 <div class="swiper-container swiper-container1">
     <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/2018111400300657657.png" alt=""></div>
-        <div class="swiper-slide"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181114012695709570.png" alt=""></div>
-        <div class="swiper-slide"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181114012148254825.png" alt=""></div>
-        <div class="swiper-slide"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180417021366146614.jpg" alt=""></div>
+        {aspcms:slidelist id=2}
+        <div class="swiper-slide"><img src="[slidelist:pic]" alt=""></div>
+        {/aspcms:slidelist}
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
@@ -122,132 +102,66 @@
 <div class="swiper-container gallery-top gallery-top2 swiper-container2">
     <p>NEWS & NOTICE</p>
     <div class="swiper-wrapper imgCon">
+        {aspcms:content sort=36 num=5 order=order star=1}
         <div class="swiper-slide">
-            <a href="javascript:;"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181122203985158515.jpg" alt=""></a>
-            <a href="javascript:;">
-                <span>《奕跑青春》MV上线 梦幻Change风潮等你来解锁！</span>
-                <span>火热盛夏，101的舞台上ETM女孩们凭借突出的表现人气...</span>
+            <a href="[content:link]"><img src="[content:pic]" alt=""></a>
+            <a href="[content:link]">
+                <span>[content:title]</span>
+                <span>[content:desc]</span>
             </a>
         </div>
-        <div class="swiper-slide">
-            <a href="javascript:;"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180528145639253925.jpg" alt=""></a>
-            <a href="javascript:;">
-                <span> ChicChili组合首登《由你音乐榜》</span>
-                <span>11月25日晚8点，最新一期《由你音乐榜》如期上线！国内...</span>
-            </a>
-        </div>
-        <div class="swiper-slide">
-            <a href="javascript:;"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181122194989268926.jpg" alt=""></a>
-            <a href="javascript:;">
-                <span> ChicChili同名组合先行单曲《Chic Chili》重磅上线 </span>
-                <span>11月19日凌晨，万众歌迷殷殷期待中，未唱先火的女子组...</span>
-            </a>
-        </div>
-        <div class="swiper-slide">
-            <a href="javascript:;"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181116150058575857.jpg" alt=""></a>
-            <a href="javascript:;">
-                <span>刘人语亮相《由你音乐榜》开唱最新单曲《LRY》</span>
-                <span>11月4日，元气创作才女刘人语亮相《由你音乐榜》，并现...</span>
-            </a>
-        </div>
+        {/aspcms:content}
     </div>
 </div>
 <div class="swiper-container gallery-thumbs gallery-thumbs2 swiper-container22">
     <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181122203985158515.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180528145639253925.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181122194989268926.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181116150058575857.jpg" alt=""></div>
+        {aspcms:content sort=36 num=5 order=order star=1}
+        <div class="swiper-slide"><img src="[content:pic]" alt=""></div>
+        {/aspcms:content}
     </div>
 </div>
 <!--NEW ALBUM-->
 <div class="new-album">
     <div class="title">NEW ALBUM</div>
     <ul class="clearfix">
-        <li class="fl">
-            <a href="javascript:;">
-                <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181122200939953995.png">
-                <h2 class="text-cut">Chic Chili - The 1st Single</h2>
-                <p class="text-cut">Chic Chili（西可西丽）&nbsp;&nbsp;2018.11.19</p>
-            </a>
-        <li class="fr">
-            <a href="javascript:;">
-                <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181114003310011001.png">
-                <h2 class="text-cut">LRY</h2>
-                <p class="text-cut">刘人语&nbsp;&nbsp;2018.11.14</p>
+        {aspcms:content sort=33 num=2 order=order star=1}
+        <li>
+            <a href="[content:link]">
+                <img src="[content:pic]">
+                <h2 class="text-cut">[content:title]</h2>
+                <p class="text-cut">[content:author]&nbsp;&nbsp;[content:date]</p>
             </a>
         </li>
-        </li>
+        {/aspcms:content}
     </ul>
 </div>
 
 <!-- Swiper3 -->
 <div class="swiper-container gallery-top gallery-top3 swiper-container3">
     <div class="swiper-wrapper imgCon">
+        {aspcms:content sort=30 order=order star=1}
         <div class="swiper-slide">
-            <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181122203985158515.jpg" alt="">
-            <a target="_blank" href="https://www.bilibili.com/video/av35316938/">
+            <img src="[content:pic]" alt="">
+            <a target="_blank" href="[content:source]">
                 <div class="_t">Skies tv</div>
-                <div class="_p">CCGames | EP09.尖角帽喂食大挑战</div>
-                <p>Chic Chili</p>
-                <span>2018.11.10</span>
+                <div class="_p">[content:title]</div>
+                <p>[content:author]</p>
+                <span>[content:date]</span>
                 <div class="_btn"></div>
             </a>
         </div>
-        <div class="swiper-slide">
-            <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180528145639253925.jpg" alt="">
-            <a target="_blank" href="https://www.bilibili.com/video/av37576665">
-                <div class="_t">Skies tv</div>
-                <div class="_p"> 西可西丽旅行记S1 | EP01</div>
-                <p>Chic Chili</p>
-                <span>2018.12.08</span>
-                <div class="_btn"></div>
-            </a>
-        </div>
-        <div class="swiper-slide">
-            <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181122194989268926.jpg" alt="">
-            <a target="_blank" href="https://www.bilibili.com/video/av35883473/">
-                <div class="_t">Skies tv</div>
-                <div class="_p">CCGames | EP12.萝卜蹲</div>
-                <p>Chic Chili</p>
-                <span>2018.11.18</span>
-                <div class="_btn"></div>
-            </a>
-        </div>
-        <div class="swiper-slide">
-            <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181116150058575857.jpg" alt="">
-            <a target="_blank" href="https://www.bilibili.com/video/av35330982/">
-                <div class="_t">Skies tv</div>
-                <div class="_p">CCGames | EP11.最小接近值</div>
-                <p>Chic Chili</p>
-                <span>2018.11.17</span>
-                <div class="_btn"></div>
-            </a>
-        </div>
+        {/aspcms:content}
     </div>
 </div>
 <div class="swiper-container gallery-thumbs gallery-thumbs3 swiper-container33">
     <div class="swiper-wrapper">
+        {aspcms:content sort=30 order=order star=1}
         <div class="swiper-slide">
-            <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181122203985158515.jpg" alt="">
-            <h2 class="text-cut">CCGames | EP09.尖角帽喂食大挑战</h2>
-            <p class="text-cut">Chic Chili&nbsp;&nbsp;&nbsp;2018.11.10</p>
+            <img src="[content:pic]" alt="">
+            <h2 class="text-cut">[content:title]</h2>
+            <p class="text-cut">[content:author]&nbsp;&nbsp;&nbsp;[content:date]</p>
         </div>
-        <div class="swiper-slide">
-            <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180528145639253925.jpg" alt="">
-            <h2 class="text-cut">CCGames | EP10.狼人杀</h2>
-            <p class="text-cut">Chic Chili&nbsp;&nbsp;&nbsp;2018.11.11</p>
-        </div>
-        <div class="swiper-slide">
-            <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181122194989268926.jpg" alt="">
-            <h2 class="text-cut">CCGames | EP12.萝卜蹲</h2>
-            <p class="text-cut">Chic Chili&nbsp;&nbsp;&nbsp;2018.11.12</p>
-        </div>
-        <div class="swiper-slide">
-            <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181116150058575857.jpg" alt="">
-            <h2 class="text-cut"> 西可西丽旅行记S1 | EP01</h2>
-            <p class="text-cut">Chic Chili&nbsp;&nbsp;&nbsp;2018.11.13</p>
-        </div>
+        {/aspcms:content}
     </div>
 </div>
 
@@ -255,62 +169,38 @@
 <div class="training-center">
     <div class="title">ETM TRAINING CENTER</div>
     <ul class="clearfix">
+        {aspcms:content sort=28 num=4 order=order star=1}
         <li>
-            <a href="javascript:;">
-                <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180903170478937893.jpg">
-                <p class="text-cut">2018暑期练习生特训营回顾</p>
+            <a href="[content:link]">
+                <img src="[content:pic]">
+                <p class="text-cut">[content:title]</p>
             </a>
         </li>
-        <li>
-            <a href="javascript:;">
-                <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180604141019491949.JPG">
-                <p class="text-cut">[一周热点]偶像练习生这一站落下帷幕</p>
-            </a>
-        </li>
-        <li>
-            <a href="javascript:;">
-                <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180424170225272527.jpg">
-                <p class="text-cut">[一周热点]偶像练习生这一站落下帷幕</p>
-            </a>
-        </li>
-        <li>
-            <a href="javascript:;">
-                <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180513194174257425.jpg">
-                <p class="text-cut">2018暑期练习生特训营回顾</p>
-            </a>
-        </li>
+        {/aspcms:content}
+        <!--<li>-->
+        <!--<a href="javascript:;">-->
+        <!--<img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180604141019491949.JPG">-->
+        <!--<p class="text-cut">[一周热点]偶像练习生这一站落下帷幕</p>-->
+        <!--</a>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<a href="javascript:;">-->
+        <!--<img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180424170225272527.jpg">-->
+        <!--<p class="text-cut">[一周热点]偶像练习生这一站落下帷幕</p>-->
+        <!--</a>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<a href="javascript:;">-->
+        <!--<img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180513194174257425.jpg">-->
+        <!--<p class="text-cut">2018暑期练习生特训营回顾</p>-->
+        <!--</a>-->
+        <!--</li>-->
     </ul>
 </div>
 
 
-
 <!--相同的部分begin2-->
-<!--foot-->
-<div class="foot" style="background-color: #5fb4c3;">
-    <div class="footA1">
-        <a href="javascript:;">关于我们</a><span>|</span>
-        <a href="javascript:;">招贤纳士</a><span>|</span>
-        <a href="javascript:;">社交网络</a>
-    </div>
-    <div class="footA2">
-        中国?四川省成都市锦江区红星路三段10号第一城B座22F<br>
-        蜀ICP备12031058-2 广播电视节目制作经营许可证：川字第00554号<br>
-        Copyright?2018活力时代(成都)文化传播有限公司 版权所有
-    </div>
-</div>
-<script>
-    $(function () {
-        FastClick.attach(document.body);
-        var width = $(window).width();
-        var height = $(window).height();
-        $(".closeA").children("span").click(function () {
-            $(".top_fd").fadeOut();
-        });
-        $(".nav1").children("span").click(function () {
-            $(".top_fd").fadeIn(300).height(height);
-        });
-    });
-</script>
+{aspcms:foot}
 <!--相同的部分end2-->
 </body>
 </html>
