@@ -25,8 +25,8 @@ end function
 'dim Name',Sex,E-mail,Phone,pt,bwb,city,money,Address
 'Name=Request.Form("name")
 dim CLStr,msg,mailserver,username,password,receive
-dim yname,ysex,sjhm,yprovinces,ycity,yQQ
-dim gsname,provinces,city,sex,QQ
+dim yname,ysex,sjhm,yprovinces,ycity,yQQ,ydate,yshengaotizhong,ybumen,yemail,ytongyi
+dim gsname,provinces,city,sex,QQ,date,shengaotizhong,bumen,email,tongyi
 
 
 
@@ -36,12 +36,18 @@ sjhm = Request.Form("sjhm")
 yprovinces = Request.Form("yprovinces")
 ycity = Request.Form("ycity")
 yQQ = Request.Form("yQQ")
+ydate = Request.Form("ydate")
+yshengaotizhong = Request.Form("yshengaotizhong")
+ybumen= Request.Form("ybumen")
+yemail= Request.Form("yemail")
+ytongyi= Request.Form("ytongyi")
+
 
 if isnul(yname) then alertMsgAndGo "姓名不能为空","-1"
 if isnul(sjhm) then alertMsgAndGo "手机号码不能为空","-1"
-if isnul(yprovinces) then alertMsgAndGo "省份不能为空","-1"
-if isnul(ycity) then alertMsgAndGo "城市不能为空","-1"
-		
+if isnul(yprovinces) then alertMsgAndGo "地址不能为空","-1"
+if isnul(yshengaotizhong) then alertMsgAndGo "身高体重","-1"
+
 
 if not checkmobile(sjhm) then alertMsgAndGo "手机号码格式不正确","-1"
 

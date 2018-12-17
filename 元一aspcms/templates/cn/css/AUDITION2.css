@@ -91,6 +91,7 @@
   float: left;
 }
 .baoB form .baoB4 dd {
+  margin-left: 32px;
   float: left;
   font-size: 0.64rem;
 }
@@ -123,11 +124,12 @@
   line-height: 2.02666667rem;
 }
 .baoB form .baoB5 dd {
+  padding-left: 1.6rem;
   float: left;
   font-size: 0.64rem;
 }
 .baoB form .baoB5 dd input {
-  width: 1.81333333rem;
+  width: 5.33333333rem;
   height: 1.6rem;
   line-height: 1.6rem;
   border: none;
@@ -153,12 +155,13 @@
   float: left;
 }
 .baoB form .baoB6 dd input {
-  width: 1.81333333rem;
+  width: 10.13333333rem;
   height: 1.6rem;
   line-height: 1.6rem;
   border: none;
 }
 .baoB form .baoB6 dd span {
+  float: right;
   color: #38b791;
 }
 .baoB form .baoB7 {

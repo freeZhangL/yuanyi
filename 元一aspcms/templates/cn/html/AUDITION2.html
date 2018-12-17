@@ -56,29 +56,29 @@
 </div>
 <!--baoA-->
 <div class="baoA">
-    <b style=" color:#5fb4c3;">ETMSkies Audition</b>天空偶像计划练习生选秀<br>
+    <b style=" color:#5fb4c3;">VOGOURSkies Audition</b>天空偶像计划练习生选秀<br>
     设立官网在线选秀通道<br>
     拥有斑斓世界的音乐之梦的你，只需要按照下面的报名系统提交相关资料即可参与在线选秀<br>
     期待实力与勇气兼备的你前来挑战！
 </div>
 <!--baoB-->
 <div class="baoB">
-    <form method="post" action="" name="gform" enctype="multipart/form-data" onsubmit="return chkFrm()">
+    <form method="post"  name="zxyy" action="/gbook/send.asp" >
         <div class="baoB1"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/t7.png"></div>
         <div class="baoB2"><span>1</span>个人基本信息</div>
         <dl class="baoB3">
             <dt>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</dt>
-            <dd class="bao_sx2"><input class="put1" name="uname" type="text"></dd>
+            <dd class="bao_sx2"><input class="put1" name="yname" type="text"></dd>
         </dl>
         <dl class="baoB4">
             <dt>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别</dt>
             <dd class="bao_sx2">
                 <div class="opt">
-                    <input class="bbtn" type="radio" name="sex" id="c1" value="1" checked="">
+                    <input class="bbtn" type="radio" name="ysex" id="c1" value="1" checked="">
                     <label for="c1">女</label>
                 </div>
                 <div class="opt">
-                    <input class="bbtn" type="radio" name="sex" id="c2" value="2">
+                    <input class="bbtn" type="radio" name="ysex" id="c2" value="2">
                     <label for="c2">男</label>
                 </div>
             </dd>
@@ -86,29 +86,30 @@
         <dl class="baoB5">
             <dt>出生年月</dt>
             <dd class="bao_sx2">
-                <input class="put1 put2" name="nian" type="text"><span>年</span>
-                <input class="put1 put3" name="yue" type="text"><span>月</span>
-                <input class="put1 put3" name="ri" type="text"><span>日</span>
+                <input class="put1 put2" name="ydate" type="date">
+                <!--<input class="put1 put3" name="yue" type="text"><span>月</span>-->
+                <!--<input class="put1 put3" name="ri" type="text"><span>日</span>-->
+                <!---->
             </dd>
         </dl>
         <dl class="baoB6">
             <dt>身高体重</dt>
             <dd>
-                <input class="put1 put2" name="shengao" type="text"><span>CM</span>
-                <input class="put1 put2" name="weight" type="text"><span>KG</span>
+                <input class="put1 put2" name="yshengaotizhong" type="text"><span>cm/kg</span>
+                <!--<input class="put1 put2" name="weight" type="text"><span>KG</span>-->
             </dd>
         </dl>
         <div class="baoB7"><span>2</span>填报部门</div>
         <dl class="baoB8">
             <dt>
                 <div class="opt">
-                    <input class="bbtn" type="radio" name="bumen" id="bm1" value="1" checked="">
+                    <input class="bbtn" type="radio" name="ybumen" id="bm1" value="1" checked="">
                     <label for="bm1">小演员儿童戏曲</label>
                 </div>
             </dt>
             <dt>
                 <div class="opt">
-                    <input class="bbtn" type="radio" name="bumen" id="bm2" value="2">
+                    <input class="bbtn" type="radio" name="ybumen" id="bm2" value="2">
                     <label for="bm2">Vigour练习生</label>
                 </div>
             </dt>
@@ -117,21 +118,21 @@
         <dl class="baoB10">
             <dt>联络电话</dt>
             <dd class="bao_sx2">
-                <input class="put1 put4" name="tel" type="text">
+                <input class="put1 put4" name="sjhm" type="text">
                 <span>(这是我们联络你的重要方式，请确保畅通）</span>
             </dd>
         </dl>
-        <dl class="baoB11">
-            <dt>就读学校</dt>
-            <dd class="bao_sx2"><input class="put1" name="title" type="text"></dd>
-        </dl>
+        <!--<dl class="baoB11">-->
+            <!--<dt>就读学校</dt>-->
+            <!--<dd class="bao_sx2"><input class="put1" name="title" type="text"></dd>-->
+        <!--</dl>-->
         <dl class="baoB12">
             <dt>E-mail&nbsp;&nbsp;</dt>
-            <dd class="bao_sx2"><input class="put1" name="email" type="text"></dd>
+            <dd class="bao_sx2"><input class="put1" name="yemail" type="text"></dd>
         </dl>
         <dl class="baoB13">
             <dt>家庭住址</dt>
-            <dd class="bao_sx2"><input class="put1" name="address" type="text"></dd>
+            <dd class="bao_sx2"><input class="put1" name="yprovinces" type="text"></dd>
         </dl>
         <div class="baoB14"><span>4</span>选秀须知协议条款</div>
         <!--<div class="bao_photo">-->
@@ -163,13 +164,13 @@
         <dl class="bao_tongyi">
             <dt>
                 <div class="opt">
-                    <input class="bbtn" type="radio" name="tongyi" id="ty1" value="1" checked="">
+                    <input class="bbtn" type="radio" name="ytongyi" id="ty1" value="1" checked="true">
                     <label for="ty1">我同意上述协议条款</label>
                 </div>
             </dt>
             <dt>
                 <div class="opt">
-                    <input class="bbtn" type="radio" name="tongyi" id="ty2" value="2">
+                    <input class="bbtn" type="radio" name="ytongyi" id="ty2" value="2" >
                     <label for="ty2">我不同意上述协议条款</label>
                 </div>
             </dt>
@@ -179,13 +180,19 @@
 </div>
 
 
-
-
-
-
-
 <!--相同的部分begin2-->
 {aspcms:foot}
 <!--相同的部分end2-->
+<script>
+    $(function () {
+        $("#sub").click(function () {
+            if ($("#ty2").prop("checked")){
+                alert("请同意上述协议");
+                // return;
+            }
+            return;
+        })
+    })
+</script>
 </body>
 </html>

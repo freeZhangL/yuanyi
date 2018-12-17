@@ -2,91 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4cf73e2-d5b0-4bbf-bfc9-68143dccd957" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../data/#5Dp8Gh.asp" beforeDir="false" afterPath="$PROJECT_DIR$/../../data/#5Dp8Gh.asp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gbook/send.asp" beforeDir="false" afterPath="$PROJECT_DIR$/../../gbook/send.asp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/AUDITION2-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/AUDITION2-detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/AUDITION2-detail.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/AUDITION2-detail.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/AUDITION2-detail.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/AUDITION2-detail.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/AUDITION2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/AUDITION2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/AUDITION2.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/AUDITION2.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/AUDITION2.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/AUDITION2.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Album2-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Album2-detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Album2-detail.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/Album2-detail.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Album2-detail.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/Album2-detail.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Album2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Album2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Album2.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/Album2.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Album2.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/Album2.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Artist2-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Artist2-detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Artist2-detail.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/Artist2-detail.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Artist2-detail.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/Artist2-detail.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Artist2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Artist2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Artist2.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/Artist2.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Artist2.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/Artist2.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Drafts-and-topics1-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Drafts-and-topics1-detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Drafts-and-topics1-detail.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/Drafts-and-topics1-detail.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Drafts-and-topics1-detail.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/Drafts-and-topics1-detail.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Drafts-and-topics1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Drafts-and-topics1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Drafts-and-topics1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/Drafts-and-topics1.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Drafts-and-topics1.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/Drafts-and-topics1.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ETM-Studio2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ETM-Studio2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ETM-Studio2.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/ETM-Studio2.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ETM-Studio2.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/ETM-Studio2.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/News2-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/News2-detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/News2-detail.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/News2-detail.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/News2-detail.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/News2-detail.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/News2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/News2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/News2.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/News2.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/News2.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/News2.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Skies-TV2-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Skies-TV2-detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Skies-TV2-detail.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/Skies-TV2-detail.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Skies-TV2-detail.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/Skies-TV2-detail.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Skies-TV2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Skies-TV2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Skies-TV2.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/Skies-TV2.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Skies-TV2.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/Skies-TV2.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Social-Networks3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Social-Networks3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Social-Networks3.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/Social-Networks3.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Social-Networks3.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/Social-Networks3.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aboutUs1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aboutUs1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aboutUs1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/aboutUs1.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aboutUs1.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/aboutUs1.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/adapter.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adapter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index2.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/index2.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/joinUs3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/joinUs3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/joinUs3.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/joinUs3.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/joinUs3.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/joinUs3.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/xingbang1-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/xingbang1-detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/xingbang1-detail.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/xingbang1-detail.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/xingbang1-detail.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/xingbang1-detail.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/AUDITION2-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/AUDITION2-detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/AUDITION2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/AUDITION2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Album2-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Album2-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Album2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Album2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Artist2-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Artist2-detail-top.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Artist2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Artist2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Drafts-and-topics1-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Drafts-and-topics1-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Drafts-and-topics1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Drafts-and-topics1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/ETM-Studio2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/ETM-Studio2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/News2-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/News2-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/News2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/News2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Skies-TV2-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Skies-TV2-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Skies-TV2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Skies-TV2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Social-Networks3.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Social-Networks3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/aboutUs1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/aboutUs1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/foot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/jihui1-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/jihui1-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/joinUs3.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/joinUs3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sheshi1-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sheshi1-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/vigour1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/vigour1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/xijushe1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/xijushe1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/xingbang1-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/xingbang1-detail.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -101,83 +24,75 @@
     <session id="1088459329">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="asp" value="2" />
           <entry key="css" value="5" />
           <entry key="gif" value="1" />
-          <entry key="html" value="242" />
+          <entry key="html" value="246" />
           <entry key="js" value="5" />
-          <entry key="less" value="58" />
+          <entry key="less" value="59" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="ASP" value="2" />
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="242" />
+          <entry key="HTML" value="246" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="5" />
-          <entry key="Less" value="58" />
+          <entry key="Less" value="59" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="asp" value="178" />
           <entry key="css" value="91" />
-          <entry key="html" value="874" />
+          <entry key="html" value="1085" />
           <entry key="js" value="19" />
-          <entry key="less" value="446" />
+          <entry key="less" value="479" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="ASP" value="178" />
           <entry key="CSS" value="91" />
-          <entry key="HTML" value="874" />
+          <entry key="HTML" value="1085" />
           <entry key="JavaScript" value="19" />
-          <entry key="Less" value="446" />
+          <entry key="Less" value="479" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43030304">
+    <splitter split-orientation="horizontal" split-proportion="0.46189165">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/xingbang1-detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="151">
-                  <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-                  <folding>
-                    <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/Social-Networks3.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="150">
-                  <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+                  <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/swiper.css">
+            <entry file="file://$PROJECT_DIR$/html/Skies-TV2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-10935">
-                  <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+                <state relative-caret-position="225">
+                  <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
                 </state>
               </provider>
             </entry>
@@ -185,7 +100,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/index2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="167">
+                <state relative-caret-position="1175">
                   <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
                   <folding>
                     <element signature="n#script#4;n#head#0;n#html#0;n#!!top" />
@@ -200,18 +115,28 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/vigour1.less">
-              <provider selected="true" editor-type-id="text-editor" />
+            <entry file="file://$PROJECT_DIR$/html/News2.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="900">
+                  <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/html/AUDITION2.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="88">
+                  <caret line="183" column="13" selection-start-line="183" selection-start-column="13" selection-end-line="183" selection-end-column="13" />
+                </state>
+              </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/jihui1-detail.html">
+            <entry file="file://$PROJECT_DIR$/css/AUDITION2.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="262">
-                  <caret line="59" column="6" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
-                  <folding>
-                    <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="2700">
+                  <caret line="108" column="10" lean-forward="true" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -219,8 +144,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="75" column="49" lean-forward="true" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
+                <state relative-caret-position="1875">
+                  <caret line="75" column="49" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
                 </state>
               </provider>
             </entry>
@@ -228,17 +153,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/base.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="212">
+                <state relative-caret-position="6450">
                   <caret line="258" column="27" selection-start-line="258" selection-start-column="27" selection-end-line="258" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/adapter.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="451">
-                  <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+                <state relative-caret-position="250">
+                  <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -246,13 +171,14 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/index2.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+                <state relative-caret-position="150">
+                  <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
                   <folding>
-                    <element signature="e#721#1888#0" />
-                    <element signature="e#1941#2038#0" />
-                    <element signature="e#2079#3436#0" />
-                    <element signature="e#3458#3872#0" />
+                    <element signature="e#55#721#0" />
+                    <element signature="e#741#1908#0" />
+                    <element signature="e#1961#2058#0" />
+                    <element signature="e#2099#3456#0" />
+                    <element signature="e#3917#4929#0" />
                   </folding>
                 </state>
               </provider>
@@ -261,12 +187,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/index2.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="254">
-                  <caret line="172" column="22" lean-forward="true" selection-start-line="172" selection-start-column="22" selection-end-line="172" selection-end-column="22" />
+                <state relative-caret-position="175">
+                  <caret line="39" selection-start-line="39" selection-end-line="39" />
                   <folding>
                     <element signature="e#55#721#0" />
                     <element signature="e#741#1908#0" />
@@ -274,6 +200,15 @@
                     <element signature="e#2099#3456#0" />
                     <element signature="e#3917#4929#0" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../../gbook/send.asp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="262">
+                  <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -293,6 +228,8 @@
     <findStrings>
       <find>../</find>
       <find>px</find>
+      <find>name</find>
+      <find>pro</find>
     </findStrings>
     <replaceStrings>
       <replace>{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/</replace>
@@ -306,7 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/top.html" />
         <option value="$PROJECT_DIR$/html/Artist2-detail.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/css/sheshi1-detail.less" />
@@ -317,7 +253,6 @@
         <option value="$PROJECT_DIR$/html/Artist2.html" />
         <option value="$PROJECT_DIR$/html/Artist2-detail-bottom.html" />
         <option value="$PROJECT_DIR$/html/Artist2-detail-top.html" />
-        <option value="$PROJECT_DIR$/html/AUDITION2.html" />
         <option value="$PROJECT_DIR$/html/AUDITION2-detail.html" />
         <option value="$PROJECT_DIR$/html/joinUs3.html" />
         <option value="$PROJECT_DIR$/html/News2.html" />
@@ -340,7 +275,6 @@
         <option value="$PROJECT_DIR$/css/Album2-detail.less" />
         <option value="$PROJECT_DIR$/css/Artist2.less" />
         <option value="$PROJECT_DIR$/css/Artist2-detail.less" />
-        <option value="$PROJECT_DIR$/css/AUDITION2.less" />
         <option value="$PROJECT_DIR$/css/AUDITION2-detail.less" />
         <option value="$PROJECT_DIR$/css/Drafts-and-topics1.less" />
         <option value="$PROJECT_DIR$/css/Drafts-and-topics1-detail.less" />
@@ -357,6 +291,9 @@
         <option value="$PROJECT_DIR$/css/base.less" />
         <option value="$PROJECT_DIR$/css/adapter.css" />
         <option value="$PROJECT_DIR$/css/index2.less" />
+        <option value="$PROJECT_DIR$/css/AUDITION2.less" />
+        <option value="$PROJECT_DIR$/html/AUDITION2.html" />
+        <option value="$PROJECT_DIR$/../../gbook/send.asp" />
       </list>
     </option>
   </component>
@@ -366,7 +303,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="1438" />
     <option name="height" value="836" />
@@ -445,18 +382,19 @@
       <workItem from="1544601527164" duration="5401000" />
       <workItem from="1544662526972" duration="26919000" />
       <workItem from="1544840775268" duration="17480000" />
-      <workItem from="1545006791602" duration="19025000" />
+      <workItem from="1545006791602" duration="25378000" />
+      <workItem from="1545035906097" duration="390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68825000" />
+    <option name="totallyTimeSpent" value="75568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="783" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2124105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13365155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -503,16 +441,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/Album2-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/Artist2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-350">
@@ -524,9 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150">
           <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-          <folding>
-            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,13 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-300">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/AUDITION2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -562,9 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,18 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#img#1;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#3;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/News2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -605,16 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/Skies-TV2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -636,9 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,9 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,13 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="590">
           <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/AUDITION2.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10214">
-          <caret line="414" column="28" selection-start-line="414" selection-start-column="28" selection-end-line="414" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -808,10 +688,7 @@
     <entry file="file://$PROJECT_DIR$/html/jihui1-detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
-          <caret line="59" column="6" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
-          <folding>
-            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
+          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -819,10 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding>
-            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,47 +705,27 @@
     <entry file="file://$PROJECT_DIR$/css/swiper.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-10935">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="75" column="49" lean-forward="true" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="258" column="27" selection-start-line="258" selection-start-column="27" selection-end-line="258" selection-end-column="27" />
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/Social-Networks3.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index2.less">
+    <entry file="file://$PROJECT_DIR$/html/Skies-TV2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-          <folding>
-            <element signature="e#721#1888#0" />
-            <element signature="e#1941#2038#0" />
-            <element signature="e#2079#3436#0" />
-            <element signature="e#3458#3872#0" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="1175">
           <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
           <folding>
             <element signature="n#script#4;n#head#0;n#html#0;n#!!top" />
@@ -885,10 +738,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/News2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/AUDITION2.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="108" column="10" lean-forward="true" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="75" column="49" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6450">
+          <caret line="258" column="27" selection-start-line="258" selection-start-column="27" selection-end-line="258" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/adapter.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="250">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/AUDITION2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="183" column="13" selection-start-line="183" selection-start-column="13" selection-end-line="183" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index2.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#55#721#0" />
+            <element signature="e#741#1908#0" />
+            <element signature="e#1961#2058#0" />
+            <element signature="e#2099#3456#0" />
+            <element signature="e#3917#4929#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../gbook/send.asp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
         </state>
       </provider>
     </entry>
