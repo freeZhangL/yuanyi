@@ -5,55 +5,55 @@
   color: #000;
   font-weight: 600;
   font-family: "兰亭粗黑_GBK";
-  padding: 20px 12px 10px;
+  padding: 1.06666667rem 0.64rem 0.53333333rem;
   position: relative;
 }
 .ntitA h2 {
-  line-height: 25px;
-  font-size: 16px;
+  line-height: 1.33333333rem;
+  font-size: 0.85333333rem;
   font-weight: normal;
   font-style: italic;
   text-transform: uppercase;
-  border-bottom: 2px solid #000000;
+  border-bottom: 0.10666667rem solid #000000;
   display: inline-block;
 }
 .ntitA p {
-  line-height: 25px;
-  font-size: 16px;
+  line-height: 1.33333333rem;
+  font-size: 0.85333333rem;
 }
 .baoA {
-  line-height: 24px;
+  line-height: 1.28rem;
   color: #000;
-  padding: 0px 12px 15px;
+  padding: 0rem 0.64rem 0.8rem;
   font-family: "兰亭细黑_GBK";
 }
 .baoB {
-  margin: 15px 15px;
-  border-radius: 10px;
+  margin: 0.8rem 0.8rem;
+  border-radius: 0.53333333rem;
   overflow: hidden;
   color: #1b1e21;
-  -moz-box-shadow: 0px 0px 3px #d4d3d3;
-  -webkit-box-shadow: 0px 0px 3px #d4d3d3;
-  box-shadow: 0px 0px 3px #d4d3d3;
+  -moz-box-shadow: 0rem 0rem 0.16rem #d4d3d3;
+  -webkit-box-shadow: 0rem 0rem 0.16rem #d4d3d3;
+  box-shadow: 0rem 0rem 0.16rem #d4d3d3;
 }
 .baoB form .baoB1 img {
   width: 100%;
 }
 .baoB form .baoB2 {
-  height: 38px;
-  line-height: 38px;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
   color: #1b1e21;
   font-family: "兰亭粗黑_GBK";
-  padding-left: 12px;
-  border-bottom: 1px solid #ededed;
+  padding-left: 0.64rem;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .baoB2 span {
-  width: 18px;
-  height: 18px;
-  line-height: 20px;
-  font-size: 12px;
+  width: 0.96rem;
+  height: 0.96rem;
+  line-height: 1.06666667rem;
+  font-size: 0.64rem;
   text-align: center;
-  margin-right: 5px;
+  margin-right: 0.26666667rem;
   background: #38b791;
   display: inline-block;
   color: #fff;
@@ -62,130 +62,130 @@
 .baoB form .baoB3 {
   overflow: hidden;
   clear: both;
-  height: 38px;
-  line-height: 38px;
-  border-bottom: 1px solid #ededed;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
+  border-bottom: 0.05333333rem solid #ededed;
   background: linear-gradient(to bottom, #f9f9f9 0%, #ffffff 100%);
 }
 .baoB form .baoB3 dt {
-  width: 70px;
-  padding: 0 0px 0 12px;
-  font-size: 15px;
+  width: 3.73333333rem;
+  padding: 0 0rem 0 0.64rem;
+  font-size: 0.8rem;
   float: left;
 }
 .baoB form .baoB3 dd {
   float: left;
-  font-size: 12px;
+  font-size: 0.64rem;
 }
 .baoB form .baoB4 {
   overflow: hidden;
   clear: both;
-  height: 38px;
-  line-height: 38px;
-  border-bottom: 1px solid #ededed;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .baoB4 dt {
-  width: 70px;
-  padding: 0 0px 0 12px;
-  font-size: 15px;
+  width: 3.73333333rem;
+  padding: 0 0rem 0 0.64rem;
+  font-size: 0.8rem;
   float: left;
 }
 .baoB form .baoB4 dd {
   float: left;
-  font-size: 12px;
+  font-size: 0.64rem;
 }
 .baoB form .baoB4 dd .opt {
   display: inline-block;
-  width: 54px;
-  height: 38px;
+  width: 2.88rem;
+  height: 2.02666667rem;
 }
 .baoB form .baoB4 dd .opt label {
-  padding-right: 20px;
+  padding-right: 1.06666667rem;
   position: relative;
   display: block;
-  padding-left: 22px;
+  padding-left: 1.17333333rem;
   cursor: pointer;
-  top: -39px;
+  top: -2.08rem;
   vertical-align: middle;
 }
 .baoB form .baoB5 {
   overflow: hidden;
   clear: both;
-  height: 38px;
-  line-height: 38px;
-  border-bottom: 1px solid #ededed;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .baoB5 dt {
-  width: 70px;
-  padding: 0 0px 0 12px;
-  font-size: 15px;
+  width: 3.73333333rem;
+  padding: 0 0rem 0 0.64rem;
+  font-size: 0.8rem;
   float: left;
-  line-height: 38px;
+  line-height: 2.02666667rem;
 }
 .baoB form .baoB5 dd {
   float: left;
-  font-size: 12px;
+  font-size: 0.64rem;
 }
 .baoB form .baoB5 dd input {
-  width: 34px;
-  height: 30px;
-  line-height: 30px;
+  width: 1.81333333rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
   border: none;
 }
 .baoB form .baoB5 dd span {
   color: #38b791;
-  font-size: 12px;
+  font-size: 0.64rem;
 }
 .baoB form .baoB6 {
   overflow: hidden;
   clear: both;
-  height: 38px;
-  line-height: 38px;
-  border-bottom: 1px solid #ededed;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .baoB6 dt {
-  width: 70px;
-  padding: 0 0px 0 12px;
-  font-size: 15px;
+  width: 3.73333333rem;
+  padding: 0 0rem 0 0.64rem;
+  font-size: 0.8rem;
   float: left;
 }
 .baoB form .baoB6 dd {
   float: left;
 }
 .baoB form .baoB6 dd input {
-  width: 34px;
-  height: 30px;
-  line-height: 30px;
+  width: 1.81333333rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
   border: none;
 }
 .baoB form .baoB6 dd span {
   color: #38b791;
 }
 .baoB form .baoB7 {
-  height: 38px;
-  line-height: 38px;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
   color: #1b1e21;
   font-family: "兰亭粗黑_GBK";
-  padding-left: 12px;
-  border-bottom: 1px solid #ededed;
+  padding-left: 0.64rem;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .baoB7 span {
-  width: 18px;
-  height: 18px;
-  line-height: 20px;
-  font-size: 12px;
+  width: 0.96rem;
+  height: 0.96rem;
+  line-height: 1.06666667rem;
+  font-size: 0.64rem;
   text-align: center;
-  margin-right: 5px;
+  margin-right: 0.26666667rem;
   background: #38b791;
   display: inline-block;
   color: #fff;
   border-radius: 50%;
 }
 .baoB form .baoB8 {
-  font-size: 12px;
-  height: 38px;
-  line-height: 38px;
-  border-bottom: 1px solid #ededed;
+  font-size: 0.64rem;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .baoB8 .opt {
   width: 50%;
@@ -194,20 +194,20 @@
   float: left;
 }
 .baoB form .baoB9 {
-  height: 38px;
-  line-height: 38px;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
   color: #1b1e21;
   font-family: "兰亭粗黑_GBK";
-  padding-left: 12px;
-  border-bottom: 1px solid #ededed;
+  padding-left: 0.64rem;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .baoB9 span {
-  width: 18px;
-  height: 18px;
-  line-height: 20px;
-  font-size: 12px;
+  width: 0.96rem;
+  height: 0.96rem;
+  line-height: 1.06666667rem;
+  font-size: 0.64rem;
   text-align: center;
-  margin-right: 5px;
+  margin-right: 0.26666667rem;
   background: #38b791;
   display: inline-block;
   color: #fff;
@@ -217,125 +217,125 @@
   position: relative;
   overflow: hidden;
   clear: both;
-  height: 38px;
-  line-height: 38px;
-  border-bottom: 1px solid #ededed;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .baoB10 dt {
-  width: 70px;
-  padding: 0 0px 0 12px;
-  font-size: 15px;
+  width: 3.73333333rem;
+  padding: 0 0rem 0 0.64rem;
+  font-size: 0.8rem;
   float: left;
 }
 .baoB form .baoB10 dd {
   float: left;
-  font-size: 12px;
+  font-size: 0.64rem;
 }
 .baoB form .baoB10 dd input {
-  width: 100px;
-  height: 30px;
-  line-height: 30px;
+  width: 5.33333333rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
   border: none;
 }
 .baoB form .baoB10 dd span {
-  font-size: 8px;
+  font-size: 0.42666667rem;
   color: #38b791;
   position: absolute;
-  right: 8px;
-  top: 0px;
+  right: 0.42666667rem;
+  top: 0rem;
 }
 .baoB form .baoB11 {
   overflow: hidden;
   clear: both;
-  height: 38px;
-  line-height: 38px;
-  border-bottom: 1px solid #ededed;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .baoB11 dt {
-  width: 70px;
-  padding: 0 0px 0 12px;
-  font-size: 15px;
+  width: 3.73333333rem;
+  padding: 0 0rem 0 0.64rem;
+  font-size: 0.8rem;
   float: left;
 }
 .baoB form .baoB11 dd {
   float: left;
-  font-size: 12px;
+  font-size: 0.64rem;
 }
 .baoB form .baoB11 dd input {
-  width: 150px;
-  height: 30px;
-  line-height: 30px;
+  width: 8rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
   border: none;
 }
 .baoB form .baoB12 {
   overflow: hidden;
   clear: both;
-  height: 38px;
-  line-height: 38px;
-  border-bottom: 1px solid #ededed;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .baoB12 dt {
-  width: 70px;
-  padding: 0 0px 0 12px;
-  font-size: 15px;
+  width: 3.73333333rem;
+  padding: 0 0rem 0 0.64rem;
+  font-size: 0.8rem;
   float: left;
 }
 .baoB form .baoB12 dd {
   float: left;
-  font-size: 12px;
+  font-size: 0.64rem;
 }
 .baoB form .baoB13 {
-  box-shadow: 0px 3px 3px #eaeaea;
+  box-shadow: 0rem 0.16rem 0.16rem #eaeaea;
   overflow: hidden;
   clear: both;
-  height: 38px;
-  line-height: 38px;
-  border-bottom: 1px solid #ededed;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .baoB13 dt {
-  width: 70px;
-  padding: 0 0px 0 12px;
-  font-size: 15px;
+  width: 3.73333333rem;
+  padding: 0 0rem 0 0.64rem;
+  font-size: 0.8rem;
   float: left;
 }
 .baoB form .baoB13 dd {
   float: left;
-  font-size: 12px;
+  font-size: 0.64rem;
 }
 .baoB form .baoB13 dd input {
-  width: 150px;
-  height: 30px;
-  line-height: 30px;
+  width: 8rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
   border: none;
 }
 .baoB form .baoB14 {
-  height: 38px;
-  line-height: 38px;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
   color: #1b1e21;
   font-family: "兰亭粗黑_GBK";
-  padding-left: 12px;
+  padding-left: 0.64rem;
 }
 .baoB form .baoB14 span {
-  width: 18px;
-  height: 18px;
-  line-height: 20px;
-  font-size: 12px;
+  width: 0.96rem;
+  height: 0.96rem;
+  line-height: 1.06666667rem;
+  font-size: 0.64rem;
   text-align: center;
-  margin-right: 5px;
+  margin-right: 0.26666667rem;
   background: #38b791;
   display: inline-block;
   color: #fff;
   border-radius: 50%;
 }
 .baoB form .bao_photo {
-  padding-bottom: 10px;
+  padding-bottom: 0.53333333rem;
   overflow: hidden;
-  border-bottom: 1px solid #ededed;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .bao_photo dl {
   width: 33.3%;
   text-align: center;
-  padding: 0 12px;
+  padding: 0 0.64rem;
   float: left;
   box-sizing: border-box;
 }
@@ -344,36 +344,36 @@
 }
 .baoB form .bao_photo dl dt img {
   width: 100%;
-  height: 130px;
+  height: 6.93333333rem;
 }
 .baoB form .bao_photo dl dd {
-  line-height: 30px;
-  font-size: 12px;
+  line-height: 1.6rem;
+  font-size: 0.64rem;
   color: #38b791;
 }
 .baoB form .bao_tiaokuan {
-  padding: 12px;
+  padding: 0.64rem;
   overflow: hidden;
-  border-bottom: 1px solid #ededed;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .bao_tiaokuan h2 {
-  font-size: 16px;
+  font-size: 0.85333333rem;
   font-weight: normal;
   color: #5fb8c8;
   font-family: "兰亭粗黑_GBK";
-  padding-bottom: 10px;
+  padding-bottom: 0.53333333rem;
 }
 .baoB form .bao_tiaokuan p {
-  font-size: 12px;
-  line-height: 22px;
+  font-size: 0.64rem;
+  line-height: 1.17333333rem;
   color: #7d888a;
   font-family: "兰亭黑简体";
 }
 .baoB form .bao_tongyi {
-  font-size: 12px;
-  height: 38px;
-  line-height: 38px;
-  border-bottom: 1px solid #ededed;
+  font-size: 0.64rem;
+  height: 2.02666667rem;
+  line-height: 2.02666667rem;
+  border-bottom: 0.05333333rem solid #ededed;
 }
 .baoB form .bao_tongyi dt {
   width: 50%;
@@ -390,9 +390,9 @@
 }
 .baoB form #sub {
   width: 100%;
-  height: 46px;
-  line-height: 46px;
-  font-size: 16px;
+  height: 2.45333333rem;
+  line-height: 2.45333333rem;
+  font-size: 0.85333333rem;
   text-align: center;
   color: #fff;
   font-family: "兰亭粗黑_GBK";

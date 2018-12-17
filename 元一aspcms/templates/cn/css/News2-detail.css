@@ -1,8 +1,24 @@
 .news_info {
-  margin-top: 60px;
-  padding: 20px 12px 0;
+  padding: 1.06666667rem 0.64rem 0;
   color: #0d0408;
   clear: both;
+}
+.news_info .info_title {
+  line-height: 1.28rem;
+  font-size: 1.06666667rem;
+  font-family: "兰亭粗黑_GBK";
+  padding: 0.53333333rem 0 0.26666667rem;
+  font-weight: 600;
+}
+.news_info .info_time {
+  color: #777777;
+  font-family: "Myriad Pro";
+}
+.news_info .info_time span {
+  font-size: 0.85333333rem;
+}
+.news_info .info_pic {
+  margin: 0.53333333rem 0;
 }
 .news_info p {
   margin: 3.75pt 0pt;

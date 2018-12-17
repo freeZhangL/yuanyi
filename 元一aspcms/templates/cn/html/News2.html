@@ -5,11 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Keywords"
-          content="网站建设,网站建设公司,网站制作,网站制作公司,手机网站建设,手机网站制作,淘宝装修,淘宝店铺装修设计,400电话申请,400电话公司,400电话办理,微信公众号申请,微网站制作,域名注册,域名注册,邮箱申请">
-    <meta name="Description"
-          content="xxx有限公司是一家专业提供网站建设,网站建设公司,网站制作,网站制作公司,手机网站建设,手机网站制作,淘宝装修,淘宝店铺装修设计,400电话申请,400电话公司,400电话办理,微信公众号申请,微网站制作,域名注册,域名注册,邮箱申请等一系列互联网基础服务的的公司，全国服务热线xxx。">
-    <title>元一官网</title>
+    <title>{aspcms:sitetitle}</title>
+    <meta name="Keywords" content="{aspcms:sitekeywords}" />
+    <meta name="Description" content="{aspcms:sitedesc}" />
     <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/normalize.css">
     <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/base.css">
     <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/adapter.css">
@@ -29,7 +27,7 @@
 <!--相同的部分begin1-->
 <!--nav1-->
 <nav class="nav1">
-    <h1>Skies TV</h1>
+    <h1>News & Notion</h1>
     <span></span>
 </nav>
 {aspcms:top}
@@ -37,25 +35,17 @@
 <!--news-->
 <div class="news">
     <ul>
+        {aspcms:list size=5 order=id}
         <li>
-            <div class="_pic"><a href="javascript:;"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181129150499879987.jpg" width="100%"></a></div>
-            <div class="_t text-cut"><a href="javascript:;">ChicChili组合首登《由你音乐榜》</a></div>
-            <div class="_p">ETMTC / <span>2018.11.25</span></div>
-            <div class="_n">11月25日晚8点，最新一期《由你音乐榜》如期上线！国内青春女子组合ChicChili以打榜嘉宾出现在现场，并带来了组合同名单曲《ChicChili》！ ...</div>
+            <div class="_pic"><a href="[list:link]"><img src="[list:pic]" width="100%"></a></div>
+            <div class="_t text-cut"><a href="[list:link]">[list:title]</a></div>
+            <div class="_p">VIGOUR / <span>[list:date]</span></div>
+            <div class="_n">[list:desc len=50] ...</div>
         </li>
-        <li>
-            <div class="_pic"><a href="javascript:;"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181122204296439643.jpg" width="100%"></a></div>
-            <div class="_t text-cut"><a href="javascript:;">ChicChili组合首登《由你音乐榜》</a></div>
-            <div class="_p">ETMTC / <span>2018.11.25</span></div>
-            <div class="_n">11月25日晚8点，最新一期《由你音乐榜》如期上线！国内青春女子组合ChicChili以打榜嘉宾出现在现场，并带来了组合同名单曲《ChicChili》！ ...</div>
-        </li>
+        {/aspcms:list}
     </ul>
     <div class="page">[list:pagenumber len=5]</div>
 </div>
-
-
-
-
 
 <!--相同的部分begin2-->
 {aspcms:foot}

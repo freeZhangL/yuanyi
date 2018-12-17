@@ -1,35 +1,35 @@
 .Skies {
-  margin-top: 60px;
+  margin-top: 3.2rem;
 }
 .Skies dl {
   overflow: hidden;
-  padding-bottom: 7px;
+  padding-bottom: 0.37333333rem;
 }
 .Skies dl a {
   display: block;
 }
 .Skies dl a dt,
 .Skies dl a dt.jbbg1 {
-  height: 128px;
-  padding: 0 12px;
+  height: 6.82666667rem;
+  padding: 0 0.64rem;
   color: #fff;
   position: relative;
   background: linear-gradient(to right, #53cfd0 0%, #43a1cb 100%);
 }
 .Skies dl a dt span,
 .Skies dl a dt.jbbg1 span {
-  font-size: 12px;
+  font-size: 0.64rem;
   display: inline-block;
   text-decoration: underline;
-  padding-top: 20px;
+  padding-top: 1.06666667rem;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 .Skies dl a dt h2,
 .Skies dl a dt.jbbg1 h2 {
-  padding: 10px 0 3px;
-  font-size: 20px;
+  padding: 0.53333333rem 0 0.16rem;
+  font-size: 1.06666667rem;
   font-weight: normal;
   overflow: hidden;
   white-space: nowrap;
@@ -37,13 +37,13 @@
 }
 .Skies dl a dt p,
 .Skies dl a dt.jbbg1 p {
-  padding-bottom: 8px;
-  font-size: 13px;
+  padding-bottom: 0.42666667rem;
+  font-size: 0.69333333rem;
 }
 .Skies dl a dt i,
 .Skies dl a dt.jbbg1 i {
-  width: 52px;
-  height: 16px;
+  width: 2.77333333rem;
+  height: 0.85333333rem;
   display: block;
 }
 .Skies dl a dt i img,
@@ -53,16 +53,16 @@
 }
 .Skies dl a dt div,
 .Skies dl a dt.jbbg1 div {
-  width: 45px;
-  height: 45px;
+  width: 2.4rem;
+  height: 2.4rem;
   background: url("../images/t3.png") no-repeat center center / contain;
   position: absolute;
-  right: 19px;
-  top: 44px;
+  right: 1.01333333rem;
+  top: 2.34666667rem;
 }
 .Skies dl a dd img {
   width: 100%;
-  height: 375px;
+  height: 20rem;
 }
 .Skies .page {
   text-align: center;

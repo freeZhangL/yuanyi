@@ -5,11 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Keywords"
-          content="网站建设,网站建设公司,网站制作,网站制作公司,手机网站建设,手机网站制作,淘宝装修,淘宝店铺装修设计,400电话申请,400电话公司,400电话办理,微信公众号申请,微网站制作,域名注册,域名注册,邮箱申请">
-    <meta name="Description"
-          content="xxx有限公司是一家专业提供网站建设,网站建设公司,网站制作,网站制作公司,手机网站建设,手机网站制作,淘宝装修,淘宝店铺装修设计,400电话申请,400电话公司,400电话办理,微信公众号申请,微网站制作,域名注册,域名注册,邮箱申请等一系列互联网基础服务的的公司，全国服务热线xxx。">
-    <title>元一官网</title>
+    <title>{aspcms:sitetitle}</title>
+    <meta name="Keywords" content="{aspcms:sitekeywords}" />
+    <meta name="Description" content="{aspcms:sitedesc}" />
     <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/normalize.css">
     <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/base.css">
     <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/adapter.css">
@@ -36,48 +34,23 @@
 <!--相同的部分end1-->
 <!--skies-->
 <div class="skies">
+    {aspcms:list size=5 order=id}
     <dl>
-        <a href="javascript:;">
+        <a href="[list:link]">
             <dt class="jbbg2">
-                <span class="text-cut">2018.12.08起每周六19:00更新</span>
-                <h2 class="text-cut">西可西丽的旅行 第一季</h2>
-                <p>Chic Chili</p>
-                <i class="vtb v1"></i>
+                <span class="text-cut">[list:desc]</span>
+                <h2 class="text-cut">[list:title]</h2>
+                <p>[list:author]</p>
+                <i class="vtb [list:C_class]"></i>
                 <div class="_btn"></div>
             </dt>
-            <dd><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20181114012890849084.jpg"></dd>
+            <dd><img src="[list:pic]"></dd>
         </a>
     </dl>
-    <dl>
-        <a href="javascript:;">
-        <dt class="jbbg3">
-                <span class="text-cut">2018年10月13日起每周六、日19:00更新</span>
-                <h2 class="text-cut">西可西丽Games</h2>
-                <p>Chic Chili</p>
-                <i class="vtb v2"></i>
-                <div class="_btn"></div>
-            </dt>
-            <dd><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/2018103118470750750.jpg"></dd>
-        </a>
-    </dl>
-    <dl>
-        <a href="javascript:;">
-        <dt class="jbbg1">
-                <span class="text-cut">2017年8月26日起每周六更新</span>
-                <h2 class="text-cut">肉一的卡拉OK</h2>
-                <p>刘人语</p>
-                <i class="vtb v3"></i>
-                <div class="_btn"></div>
-            </dt>
-            <dd><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180421041268536853.jpg"></dd>
-        </a>
-    </dl>
+    {/aspcms:list}
 </div>
-
 <!--page-->
 <div class="page">[list:pagenumber len=5]</div>
-
-
 
 <!--相同的部分begin2-->
 {aspcms:foot}

@@ -1,78 +1,78 @@
 .ny_ban {
-  margin-top: 60px;
+  margin-top: 3.2rem;
 }
 .ny_ban img {
-  height: 375px;
+  height: 20rem;
   width: 100%;
 }
 .ntitA {
   color: #000;
   font-family: "兰亭粗黑_GBK";
-  padding: 20px 12px 10px;
+  padding: 1.06666667rem 0.64rem 0.53333333rem;
   position: relative;
 }
 .ntitA h3 {
-  line-height: 25px;
-  font-size: 22px;
+  line-height: 1.33333333rem;
+  font-size: 1.17333333rem;
   font-family: "兰亭粗黑_GBK";
   font-weight: 600;
   display: inline-block;
 }
 .SkiesBA_tb {
-  padding: 0px 12px 0px;
+  padding: 0rem 0.64rem 0rem;
   overflow: hidden;
 }
 .SkiesBA_tb i {
-  height: 25px;
+  height: 1.33333333rem;
   display: block;
-  margin-right: 3px;
+  margin-right: 0.16rem;
   float: left;
 }
 .SkiesBA_tb .m1 {
-  width: 26px;
+  width: 1.38666667rem;
   background: url("../images/m1.png") no-repeat center center / contain;
 }
 .SkiesBA_tb .m2 {
-  width: 26px;
+  width: 1.38666667rem;
   background: url("../images/m2.png") no-repeat center center / contain;
 }
 .SkiesBA_tb .m3 {
-  width: 26px;
+  width: 1.38666667rem;
   background: url("../images/m3.png") no-repeat center center / contain;
 }
 .SkiesBA {
-  font-size: 14px;
-  margin-bottom: 20px;
+  font-size: 0.74666667rem;
+  margin-bottom: 1.06666667rem;
   overflow: hidden;
-  line-height: 24px;
+  line-height: 1.28rem;
   color: #000;
-  padding: 10px 12px 20px;
+  padding: 0.53333333rem 0.64rem 1.06666667rem;
 }
 .SkiesBA ._t {
   font-family: "兰亭粗黑_GBK";
   font-weight: 600;
 }
 .AlbumBB_t {
-  line-height: 30px;
-  font-size: 18px;
+  line-height: 1.6rem;
+  font-size: 0.96rem;
   font-weight: bold;
-  margin: 0 12px;
-  border-bottom: 2px solid #000;
+  margin: 0 0.64rem;
+  border-bottom: 0.10666667rem solid #000;
   clear: both;
 }
 .AlbumBB {
   overflow: hidden;
-  padding: 0 12px 30px;
+  padding: 0 0.64rem 1.6rem;
 }
 .AlbumBB li {
-  height: 46px;
-  line-height: 46px;
-  border-bottom: 1px solid #e1e1e1;
+  height: 2.45333333rem;
+  line-height: 2.45333333rem;
+  border-bottom: 0.05333333rem solid #e1e1e1;
   font-family: "兰亭中黑";
   font-weight: 600;
 }
 .AlbumBB li span {
-  width: 36px;
+  width: 1.92rem;
   display: inline-block;
 }
 /*# sourceMappingURL=Album2-detail.css.map */

@@ -1,10 +1,10 @@
 .skies {
-  margin-top: 60px;
+  margin-top: 3.2rem;
 }
 .skies dl {
-  height: 415px;
+  height: 22.13333333rem;
   box-sizing: border-box;
-  padding-bottom: 7px;
+  padding-bottom: 0.37333333rem;
   overflow: hidden;
 }
 .skies dl > a {
@@ -20,33 +20,33 @@
   background: linear-gradient(to right, #a56fcb 0%, #8f76a3 100%);
 }
 .skies dl > a > dt {
-  height: 128px;
-  padding: 0 12px;
+  height: 6.82666667rem;
+  padding: 0 0.64rem;
   color: #fff;
   position: relative;
 }
 .skies dl > a > dt > span {
-  font-size: 12px;
+  font-size: 0.64rem;
   display: inline-block;
   text-decoration: underline;
-  padding-top: 20px;
+  padding-top: 1.06666667rem;
 }
 .skies dl > a > dt > h2 {
-  font-size: 20px;
+  font-size: 1.06666667rem;
   font-weight: normal;
-  padding: 4px 0 1px;
+  padding: 0.21333333rem 0 0.05333333rem;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  margin-top: 8px;
+  margin-top: 0.42666667rem;
 }
 .skies dl > a > dt > P {
-  font-size: 13px;
-  padding-bottom: 5px;
+  font-size: 0.69333333rem;
+  padding-bottom: 0.26666667rem;
 }
 .skies dl > a > dt > i.vtb {
-  width: 52px;
-  height: 16px;
+  width: 2.77333333rem;
+  height: 0.85333333rem;
   display: block;
 }
 .skies dl > a > dt > i.v1 {
@@ -59,14 +59,15 @@
   background: url("../images/v10.png") no-repeat center center / contain;
 }
 .skies dl > a > dt > div {
-  width: 45px;
-  height: 45px;
+  width: 2.4rem;
+  height: 2.4rem;
   background: url("../images/t3.png") no-repeat center center / contain;
   position: absolute;
-  right: 19px;
-  top: 44px;
+  right: 1.01333333rem;
+  top: 2.34666667rem;
 }
 .skies dl > a > dd img {
+  height: 14.98666667rem;
   display: block;
   width: 100%;
 }

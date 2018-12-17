@@ -3,7 +3,7 @@
 }
 .xinxin {
   background: #080403;
-  padding: 0 12px;
+  padding: 0 0.64rem;
   overflow: hidden;
 }
 .xinxin ul li {
@@ -11,14 +11,14 @@
   line-height: 1;
   color: #fff;
   text-align: center;
-  padding: 0 2% 20px;
+  padding: 0 2% 1.06666667rem;
   box-sizing: border-box;
   float: left;
   font-family: "锐字锐线怒放黑简1.0";
 }
 .xinxin ul li i {
-  width: 120px;
-  height: 128px;
+  width: 6.4rem;
+  height: 6.82666667rem;
   display: inline-block;
   overflow: hidden;
 }
@@ -26,15 +26,15 @@
   width: 100%;
 }
 .xinxin ul li h2 {
-  font-size: 14px;
+  font-size: 0.74666667rem;
   font-weight: normal;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 .xinxin ul li p {
-  font-size: 10px;
-  padding: 5px 0;
+  font-size: 0.53333333rem;
+  padding: 0.26666667rem 0;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;

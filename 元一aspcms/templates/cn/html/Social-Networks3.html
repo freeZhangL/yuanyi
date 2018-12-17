@@ -5,11 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Keywords"
-          content="网站建设,网站建设公司,网站制作,网站制作公司,手机网站建设,手机网站制作,淘宝装修,淘宝店铺装修设计,400电话申请,400电话公司,400电话办理,微信公众号申请,微网站制作,域名注册,域名注册,邮箱申请">
-    <meta name="Description"
-          content="xxx有限公司是一家专业提供网站建设,网站建设公司,网站制作,网站制作公司,手机网站建设,手机网站制作,淘宝装修,淘宝店铺装修设计,400电话申请,400电话公司,400电话办理,微信公众号申请,微网站制作,域名注册,域名注册,邮箱申请等一系列互联网基础服务的的公司，全国服务热线xxx。">
-    <title>元一官网</title>
+    <title>{aspcms:sitetitle}</title>
+    <meta name="Keywords" content="{aspcms:sitekeywords}" />
+    <meta name="Description" content="{aspcms:sitedesc}" />
     <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/normalize.css">
     <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/base.css">
     <link rel="stylesheet" href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/adapter.css">
@@ -35,11 +33,16 @@
 {aspcms:top}
 <!--相同的部分end1-->
 <!--ny_ban-->
+{aspcms:content sort=40 num=1 order=order star=1}
 <div class="ny_ban"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/40.jpg"></div>
+{/aspcms:content}
+
 <!--ny_con-->
+{aspcms:content sort=40 num=1 order=order star=2}
 <div class="ny_con">
     <img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/20180503235982578257.jpg" alt="">
 </div>
+{/aspcms:content}
 
 
 <!--相同的部分begin2-->

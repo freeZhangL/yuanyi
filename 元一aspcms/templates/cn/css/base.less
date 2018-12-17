@@ -6,13 +6,13 @@
 
 body,
 html {
-  font: 14px/140% Microsoft YaHei, Arial, "宋体", Helvetica, sans-serif, Verdana;
+  font: 14/18.75rem/140% Microsoft YaHei, Arial, "宋体", Helvetica, sans-serif, Verdana;
   height: 100%;
   color: #333333;
 }
 
 .w {
-  width: 1200px;
+  width: 1200/18.75rem;
   margin: auto;
 }
 
@@ -92,7 +92,7 @@ textarea {
   h1 {
     width: 250/18.75rem;
     height: 40/18.75rem;
-    font-size: 24/18.75rem;
+    font-size: 20/18.75rem;
     color: #5fb4c3;
     font-weight: bold;
     font-family: "AvantGardeMdITCTT";
@@ -101,6 +101,9 @@ textarea {
     position: absolute;
     left: 14/18.75rem;
     top: 33/18.75rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   span {
     width: 50/18.75rem;
@@ -147,13 +150,13 @@ textarea {
       > a {
         color: #fff;
         span{
-          padding-right: 10px;
-          font-size: 22px;
+          padding-right: 10/18.75rem;
+          font-size: 22/18.75rem;
           font-family: "SmTown";
           font-weight: bold;
           font-style: italic;
           position: relative;
-          top: 1px;
+          top: 1/18.75rem;
         }
       }
     }
@@ -224,10 +227,12 @@ textarea {
 .foot {
   padding: 20/18.75rem 12/18.75rem 20/18.75rem 80/18.75rem;
   overflow: hidden;
-  background: url("../images/t4.png") no-repeat 22/18.75rem 37/18.75rem;;
+  background: url("../images/t4.png") no-repeat 22/18.75rem 37/18.75rem;
   background-size: 45/18.75rem 28/18.75rem;
   color: #fff;
   clear: both;
+  //background: linear-gradient(to right, #637688 0%, #4e76cb 100%);
+background-color: #5fb4c3;
   .footA1 {
     padding: 0 0 5/18.75rem 2/18.75rem;
     overflow: hidden;
@@ -250,13 +255,16 @@ textarea {
     font-size: 8/18.75rem;
   }
 }
-
+img{
+  display: block!important;
+  width: 100%!important;
+}
 //相同的部分end2
 .page {
-  text-align: center;
-  height: 15/18.75rem;
-  margin: 5/18.75rem 0;
+  //text-align: center;
+  //height: 15/18.75rem;
+  margin: 3/18.75rem 0;
 }
 //分页样式
-.page{PADDING-BOTTOM: 25px; MARGIN: 10px auto 0px; WIDTH: 98%; PADDING-TOP: 10px; TEXT-ALIGN: center}
-.page a,.page span{BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 8px! important; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 8px! important; PADDING-BOTTOM: 4px! important; MARGIN: 2px; BORDER-LEFT: #ccc 1px solid; COLOR: #333! important; PADDING-TOP: 4px! important; BORDER-BOTTOM: #ccc 1px solid; TEXT-DECORATION: none! important}
+.page{PADDING-BOTTOM: 20/18.75rem; MARGIN: 10/18.75rem auto 0/18.75rem; WIDTH: 98%; PADDING-TOP: 5/18.75rem; TEXT-ALIGN: center}
+.page a,.page span{BORDER-RIGHT: #ccc 1/18.75rem solid; PADDING-RIGHT: 8/18.75rem! important; BORDER-TOP: #ccc 1/18.75rem solid; PADDING-LEFT: 8/18.75rem! important;  MARGIN: 2/18.75rem; BORDER-LEFT: #ccc 1/18.75rem solid; COLOR: #333! important; BORDER-BOTTOM: #ccc 1/18.75rem solid; TEXT-DECORATION: none! important}

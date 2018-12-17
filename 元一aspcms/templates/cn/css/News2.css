@@ -1,9 +1,9 @@
 .news {
-  margin-top: 45px;
-  padding: 0px 12px;
+  margin-top: 2.4rem;
+  padding: 0rem 0.64rem;
 }
 .news ul li {
-  padding-top: 30px;
+  padding-top: 1.6rem;
 }
 .news ul li ._pic a {
   display: block;
@@ -13,25 +13,29 @@
   width: 100%;
 }
 .news ul li ._t {
-  line-height: 42px;
-  padding-top: 10px;
+  line-height: 2.24rem;
+  padding-top: 0.53333333rem;
   position: relative;
 }
 .news ul li ._t a {
-  font-size: 22px;
+  width: 100%;
+  font-size: 1.17333333rem;
   color: #0d0408;
   font-family: "兰亭粗黑_GBK";
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .news ul li ._p {
   color: #777777;
   font-family: "Myriad Pro";
 }
 .news ul li ._p span {
-  font-size: 16px;
+  font-size: 0.85333333rem;
 }
 .news ul li ._n {
-  line-height: 24px;
-  margin: 15px 0 10px;
+  line-height: 1.28rem;
+  margin: 0.8rem 0 0.53333333rem;
   font-family: "兰亭中黑";
 }
 .news .page {

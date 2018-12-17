@@ -1,1 +1,1 @@
-{"version":3,"sources":["News2-detail.less"],"names":[],"mappings":"AACA;EACE,gBAAA;EACA,oBAAA;EACA,cAAA;EACA,WAAA;;AAJF,UAWE;EACE,kBAAA;;AAZJ,UAcE;EACE,WAAA;EACA,cAAA","file":"News2-detail.css"}
+{"version":3,"sources":["News2-detail.less"],"names":[],"mappings":"AACA;EAEE,gCAAA;EACA,cAAA;EACA,WAAA;;AAJF,UAKE;EACE,oBAAA;EACA,wBAAA;EACA,aAAa,UAAb;EACA,sCAAA;EACA,gBAAA;;AAVJ,UAYE;EACE,cAAA;EACA,aAAa,YAAb;;AAdJ,UAYE,WAGE;EACE,wBAAA;;AAhBN,UAmBE;EACE,uBAAA;;AApBJ,UAyBE;EACE,kBAAA;;AA1BJ,UA4BE;EACE,WAAA;EACA,cAAA","file":"News2-detail.css"}

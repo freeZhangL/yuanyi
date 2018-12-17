@@ -1,88 +1,100 @@
 .ny_ban {
-  margin-top: 60px;
+  margin-top: 3.2rem;
 }
 .ny_ban img {
   display: block;
   width: 100%;
-  height: 280px;
+  height: 14.93333333rem;
 }
 .ntitA {
   color: #000;
   font-family: "兰亭粗黑_GBK";
-  padding: 20px 12px 10px;
+  padding: 1.06666667rem 0.64rem 0.53333333rem;
   position: relative;
   font-weight: 600;
 }
 .ntitA h2 {
-  line-height: 25px;
-  font-size: 16px;
+  line-height: 1.33333333rem;
+  font-size: 0.85333333rem;
   font-weight: normal;
   font-style: italic;
   text-transform: uppercase;
-  border-bottom: 2px solid #000000;
+  border-bottom: 0.10666667rem solid #000000;
   display: inline-block;
 }
 .ntitA p {
-  line-height: 25px;
-  font-size: 16px;
+  line-height: 1.33333333rem;
+  font-size: 0.85333333rem;
 }
 .SkiesBA_tb {
-  padding: 0px 12px 0px;
+  padding: 0rem 0.64rem 0rem;
   overflow: hidden;
 }
 .SkiesBA_tb i {
-  width: 32px;
-  height: 25px;
+  width: 1.70666667rem;
+  height: 1.33333333rem;
   display: block;
-  margin-right: 3px;
+  margin-right: 0.16rem;
   float: left;
 }
 .SkiesBA_tb i img {
-  width: 32px;
-  height: 25px;
+  width: 1.70666667rem;
+  height: 1.33333333rem;
   display: block;
 }
 .SkiesBA {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.74666667rem;
+  line-height: 1.28rem;
   color: #000;
-  padding: 10px 12px 20px;
+  padding: 0.53333333rem 0.64rem 1.06666667rem;
   font-family: "兰亭细黑_GBK";
 }
 .SkiesBA span._t {
   font-family: "兰亭细黑_GBK";
 }
 .SkiesBB {
-  padding: 0 12px;
+  padding: 0 0.64rem;
 }
 .SkiesBB ul li {
   float: left;
   width: 48.5%;
   line-height: 1;
-  margin: 0 3% 15px 0;
+  margin: 0 3% 0.8rem 0;
+}
+.SkiesBB ul li img {
+  display: block;
+  width: 100%!important;
+  height: 5.12rem;
 }
 .SkiesBB ul li:nth-of-type(even) {
   margin-right: 0;
 }
-.SkiesBB ul li > a {
+.SkiesBB ul li a {
+  color: #000000 !important;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
   display: block;
 }
-.SkiesBB ul li > a img {
+.SkiesBB ul li a img {
   display: block;
   width: 100%;
 }
-.SkiesBB ul li > a h2 {
+.SkiesBB ul li a h2 {
   font-weight: 600;
-  line-height: 24px;
-  font-size: 12px;
+  line-height: 1.28rem;
+  font-size: 0.64rem;
   color: #0d0d0d;
   font-family: "兰亭粗黑_GBK";
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.SkiesBB ul li > a p {
-  font-size: 10px;
+.SkiesBB ul li a h2 a {
+  color: #0d0d0d;
+}
+.SkiesBB ul li a p {
+  font-size: 0.53333333rem;
   color: #525252;
   overflow: hidden;
   white-space: nowrap;

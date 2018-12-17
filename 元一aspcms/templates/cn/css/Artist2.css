@@ -1,14 +1,14 @@
 .Artist_index {
-  padding-top: 10px;
+  padding-top: 0.53333333rem;
 }
 .Artist_index a {
   display: block;
-  height: 540px;
+  height: 28.8rem;
 }
 .Artist_index a img {
-  height: 540px;
+  height: 28.8rem;
 }
 .top {
-  margin-top: 50px;
+  margin-top: 2.66666667rem;
 }
 /*# sourceMappingURL=Artist2.css.map */

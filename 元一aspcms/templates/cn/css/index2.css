@@ -22,8 +22,8 @@
   top: 1.76rem;
 }
 .nav1 h1 img {
-  width: 3.89333333rem;
-  height: 1.49333333rem;
+  width: 3.89333333rem !important;
+  height: 1.49333333rem !important;
 }
 .nav1 span {
   width: 2.66666667rem;
